@@ -219,3 +219,74 @@ Caused by: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remappe
 [20:51:30] [Server thread/INFO]: 0 placeholder hook(s) registered!
 [20:51:30] [Server thread/INFO]: Done (49.702s)! For help, type "help"
 [20:51:30] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[21:00:58] [Server thread/INFO]: [Not Secure] [Server] aa
+[21:04:10] [Server thread/INFO]: [Not Secure] [Server] hola server
+[21:04:53] [Server thread/INFO]: Unknown or incomplete command, see below for error
+mc<--[HERE]
+[21:05:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
+multiversecore<--[HERE]
+[21:06:13] [Server thread/INFO]: ====[ Multiverse Help ]====
+[21:06:13] [Server thread/INFO]:  Add a '?' after a command to see more about it.
+[21:06:13] [Server thread/INFO]: /mv [FILTER] [PAGE #]
+[21:06:13] [Server thread/INFO]: /mv version [-b|-h|-p] [--include-plugin-list]
+[21:06:13] [Server thread/INFO]: /mv list [filter] [page]
+[21:06:13] [Server thread/INFO]: /mv info [WORLD] [PAGE]
+[21:06:13] [Server thread/INFO]: /mv create {NAME} {ENV} -s [SEED] -g [GENERATOR[:ID]] -t [WORLDTYPE] [-n] -a [true|false]
+[21:06:13] [Server thread/INFO]: /mv clone {TARGET} {NAME} -g [GENERATOR[:ID]]
+[21:06:13] [Server thread/INFO]: /mv import {NAME} {ENV} -g [GENERATOR[:ID]] [-n]
+[21:06:13] [Server thread/INFO]: /mv reload
+[21:06:13] [Server thread/INFO]: /mv setspawn
+[21:06:13] [Server thread/INFO]: /mv coord
+[21:06:13] [Server thread/INFO]: /mv tp [PLAYER] {DESTINATION}
+[21:06:13] [Server thread/INFO]: /mv who [WORLD|--all]
+[21:06:13] [Server thread/INFO]: /mv spawn [PLAYER]
+[21:06:13] [Server thread/INFO]: /mv unload {WORLD}
+[21:06:13] [Server thread/INFO]: /mv load {WORLD}
+[21:06:13] [Server thread/INFO]: /mv remove {WORLD}
+[21:06:13] [Server thread/INFO]: /mv delete {WORLD}
+[21:06:13] [Server thread/INFO]: /mv regen {WORLD} [-s [SEED]] [--keep-gamerules]
+[21:06:13] [Server thread/INFO]: /mv confirm
+[21:06:13] [Server thread/INFO]: /mv modify {set|add|remove|clear} ...
+[21:06:13] [Server thread/INFO]: /mv purge [WORLD|all] {all|animals|monsters|MOBNAME}
+[21:06:13] [Server thread/INFO]: /mv modify add {VALUE} {PROPERTY} [WORLD] 
+[21:06:13] [Server thread/INFO]: /mv modify set {PROPERTY} {VALUE} [WORLD]
+[21:06:13] [Server thread/INFO]: /mv modify remove {PROPERTY} {VALUE} [WORLD]
+[21:06:13] [Server thread/INFO]: /mv modify clear {PROPERTY} [WORLD]
+[21:06:13] [Server thread/INFO]: /mv config {PROPERTY} {VALUE}
+[21:06:13] [Server thread/INFO]: /mv anchor {name} [-d]
+[21:06:13] [Server thread/INFO]: /mv env
+[21:06:13] [Server thread/INFO]: /mv debug [1|2|3|off|silent]
+[21:06:13] [Server thread/INFO]: /mv silent [true|false|on|off]
+[21:06:13] [Server thread/INFO]: /mv generators
+[21:06:13] [Server thread/INFO]: /mv check {PLAYER} {DESTINATION}
+[21:06:13] [Server thread/INFO]: /mv script {script} [target]
+[21:06:13] [Server thread/INFO]: /mv gamerule {RULE} {VALUE} [WORLD]
+[21:06:13] [Server thread/INFO]: /mv gamerules [WORLD]
+[21:07:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/mv create<--[HERE]
+[21:07:28] [Server thread/INFO]: --- Create World ---
+[21:07:28] [Server thread/INFO]: Creates a new world and loads it.
+[21:07:28] [Server thread/INFO]: /mv create {NAME} {ENV} -s [SEED] -g [GENERATOR[:ID]] -t [WORLDTYPE] [-n] -a [true|false]
+[21:07:28] [Server thread/INFO]: Permission: multiverse.core.create
+[21:07:28] [Server thread/INFO]: Aliases: mv create, mvcreate, mvc
+[21:07:28] [Server thread/INFO]: Examples:
+[21:07:28] [Server thread/INFO]: /mv create world normal
+[21:07:28] [Server thread/INFO]: /mv create lavaland nether
+[21:07:28] [Server thread/INFO]: /mv create starwars end
+[21:07:28] [Server thread/INFO]: /mv create flatroom normal -t flat
+[21:07:28] [Server thread/INFO]: /mv create gargamel normal -s gargamel
+[21:07:28] [Server thread/INFO]: /mv create moonworld normal -g BukkitFullOfMoon
+[21:08:32] [Server thread/INFO]: CONSOLE: Starting creation of world 'flatroom'...
+[21:08:32] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'flatroom' - Env: NORMAL - Type: FLAT
+[21:08:32] [Server thread/ERROR]: No key layers in MapLike[{}]
+[21:08:32] [Server thread/INFO]: Preparing start region for dimension minecraft:flatroom
+[21:08:32] [Server thread/INFO]: Preparing spawn area: 0%
+[21:08:32] [Server thread/INFO]: Time elapsed: 232 ms
+[21:08:32] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[21:08:32] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[21:08:32] [Server thread/INFO]: [WorldGuard] (flatroom) TNT ignition is PERMITTED.
+[21:08:32] [Server thread/INFO]: [WorldGuard] (flatroom) Lighters are PERMITTED.
+[21:08:32] [Server thread/INFO]: [WorldGuard] (flatroom) Lava fire is PERMITTED.
+[21:08:32] [Server thread/INFO]: [WorldGuard] (flatroom) Fire spread is UNRESTRICTED.
+[21:08:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'flatroom'
+[21:08:32] [Server thread/INFO]: CONSOLE: Complete!

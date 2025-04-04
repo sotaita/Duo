@@ -27,13 +27,13 @@ BotToken: "MTM0NDExMTA3ODg1Mzk3MTk4OA.G6RYVr.2phODQwf2tnVHivi6AbeakcS8MFwWl7itDl
 #
 # The first part of channel pairs is not the Discord channel name!
 # Run "/discord reload" after changing this option to apply
-Channels: {"global": "000000000000000000"}
+Channels: {"global": "1357070342463426789"}
 
 # Console channel numerical ID (NOT NAME), leave blank to disable the console channel all together
-DiscordConsoleChannelId: "000000000000000000"
+DiscordConsoleChannelId: "1357070297861455892"
 
 # Invitation link shown to players when using /discord and on the message shown to unlinked players when linking is enforced
-DiscordInviteLink: "https://discord.gg/changethisintheconfig.yml"
+DiscordInviteLink: "https://discord.gg/nZkF7K5nHT"
 
 # Experiments
 # These features are not fully optimized; use at your own risk
