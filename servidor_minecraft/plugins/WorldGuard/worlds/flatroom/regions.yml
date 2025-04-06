@@ -10,11 +10,19 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    minapvp:
+        min: {x: -135, y: -58, z: 32}
+        max: {x: -84, y: -40, z: 79}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
     mina:
         min: {x: -66, y: -58, z: -21}
         max: {x: -35, y: -42, z: 8}
         members: {}
-        flags: {}
+        flags: {invincible: allow}
         owners: {}
         type: cuboid
         priority: 0

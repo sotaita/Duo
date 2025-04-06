@@ -331,3 +331,23 @@ CloseCode(4004 / The account token sent with your identify payload is incorrect.
 [19:57:03] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
 [19:57:16] [Server thread/INFO]: -Mrbost6293 issued server command: /deop @a
 [19:57:16] [Server thread/INFO]: [-Mrbost6293: Made -Mrbost6293 no longer a server operator]
+[19:58:02] [Server thread/INFO]: -Mrbost6293 issued server command: /fly
+[19:58:02] [Server thread/INFO]: [Essentials] -Mrbost6293 was denied access to command.
+[19:58:20] [Server thread/INFO]: Made -Mrbost6293 a server operator
+[19:59:17] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flat mina
+[19:59:31] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag
+[20:00:50] [Server thread/INFO]: -Mrbost6293 issued server command: /region flag mina invincible allow
+[20:01:06] [Server thread/INFO]: -Mrbost6293 issued server command: /region flag
+[20:01:18] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'flatroom' have been background saved
+[20:01:40] [Server thread/INFO]: -Mrbost6293 issued server command: /region flag mina list
+[20:03:18] [Server thread/INFO]: -Mrbost6293 issued server command: /region difine minapvp
+[20:03:56] [Server thread/INFO]: -Mrbost6293 issued server command: /region define minapvp
+[20:04:18] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'flatroom' have been background saved
+[20:04:18] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flat minapvp list
+[20:04:46] [Server thread/INFO]: -Mrbost6293 issued server command: /region flag minapvp list
+[20:05:31] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag minapvp inviceble deny
+[20:06:10] [Server thread/INFO]: Please specify the world with -w world_name.
+[20:06:33] [Server thread/INFO]: Too few arguments.
+[20:06:33] [Server thread/INFO]: /region flag [-e] <id> <flag> [-w world] [-g group] [value]
+[20:07:17] [WorldGuard Task Executor - 4/INFO]: Unknown flag specified: list
+Available flags: allowed-cmds, block-break, block-place, block-trampling, blocked-cmds, breeze-charge-explosion, build, chest-access, chorus-fruit-teleport, copper-fade, coral-fade, creeper-explosion, crop-growth, damage-animals, deny-message, deny-spawn, enderdragon-block-damage, enderman-grief, enderpearl, entity-item-frame-destroy, entity-painting-destroy, entry, entry-deny-message, exit, exit-deny-message, exit-override, exit-via-teleport, exp-drops, fall-damage, farewell, farewell-title, feed-amount, feed-delay, feed-max-hunger, feed-min-hunger, fire-spread, firework-damage, frosted-ice-form, frosted-ice-melt, game-mode, ghast-fireball, grass-growth, greeting, greeting-title, heal-amount, heal-delay, heal-max-health, heal-min-health, ice-form, ice-melt, interact, invincible, item-drop, item-frame-rotation, item-pickup, lava-fire, lava-flow, leaf-decay, lighter, lightning, mob-damage, mob-spawning, moisture-change, mushroom-growth, mycelium-spread, natural-health-regen, natural-hunger-drain, nonplayer-protection-domains, notify-enter, notify-leave, other-explosion, passthrough, pistons, potion-splash, pvp, ravager-grief, receive-chat, respawn-anchors, ride, rock-growth, sculk-growth, send-chat, sleep, snow-fall, snow-melt, snowman-trails, soil-dry, spawn, teleport, teleport-message, time-lock, tnt, use, use-anvil, use-dripleaf, vehicle-destroy, vehicle-place, vine-growth, water-flow, weather-lock, wind-charge-burst, wither-damage, 
