@@ -351,3 +351,80 @@ CloseCode(4004 / The account token sent with your identify payload is incorrect.
 [20:06:33] [Server thread/INFO]: /region flag [-e] <id> <flag> [-w world] [-g group] [value]
 [20:07:17] [WorldGuard Task Executor - 4/INFO]: Unknown flag specified: list
 Available flags: allowed-cmds, block-break, block-place, block-trampling, blocked-cmds, breeze-charge-explosion, build, chest-access, chorus-fruit-teleport, copper-fade, coral-fade, creeper-explosion, crop-growth, damage-animals, deny-message, deny-spawn, enderdragon-block-damage, enderman-grief, enderpearl, entity-item-frame-destroy, entity-painting-destroy, entry, entry-deny-message, exit, exit-deny-message, exit-override, exit-via-teleport, exp-drops, fall-damage, farewell, farewell-title, feed-amount, feed-delay, feed-max-hunger, feed-min-hunger, fire-spread, firework-damage, frosted-ice-form, frosted-ice-melt, game-mode, ghast-fireball, grass-growth, greeting, greeting-title, heal-amount, heal-delay, heal-max-health, heal-min-health, ice-form, ice-melt, interact, invincible, item-drop, item-frame-rotation, item-pickup, lava-fire, lava-flow, leaf-decay, lighter, lightning, mob-damage, mob-spawning, moisture-change, mushroom-growth, mycelium-spread, natural-health-regen, natural-hunger-drain, nonplayer-protection-domains, notify-enter, notify-leave, other-explosion, passthrough, pistons, potion-splash, pvp, ravager-grief, receive-chat, respawn-anchors, ride, rock-growth, sculk-growth, send-chat, sleep, snow-fall, snow-melt, snowman-trails, soil-dry, spawn, teleport, teleport-message, time-lock, tnt, use, use-anvil, use-dripleaf, vehicle-destroy, vehicle-place, vine-growth, water-flow, weather-lock, wind-charge-burst, wither-damage, 
+[20:08:36] [Server thread/INFO]: Expected none/allow/deny but got 'deny -w flatroom'
+[20:09:01] [Server thread/INFO]: Please specify the world with -w world_name.
+[20:09:17] [Server thread/INFO]: Expected none/allow/deny but got 'deny -w flatroom'
+[20:09:43] [Server thread/INFO]: Expected none/allow/deny but got 'deny' -w flatroom'
+[20:10:12] [Server thread/INFO]: Stopping the server
+[20:10:12] [Server thread/INFO]: Stopping server
+[20:10:12] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.1-dev+12-8455212
+[20:10:12] [Server thread/INFO]: [CommandPanels] Disabling CommandPanels v3.21.5
+[20:10:12] [Server thread/INFO]: RockyHawk's CommandPanels Plugin Disabled, aww man.
+[20:10:12] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[20:10:12] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[20:10:12] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[20:10:12] [Server thread/INFO]: [Geyser-Spigot] Mrbost6293 has disconnected from the Java server because of Apagando el proxy de Geyser.
+[20:10:12] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 disconnected
+[20:10:12] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[20:10:12] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[20:10:12] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
+[20:10:12] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:10:12] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[20:10:12] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[20:10:12] [Server thread/INFO]: [RealScoreboard] Disabling RealScoreboard v1.5.3
+[20:10:12] [WebSocketConnectReadThread-159/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[20:10:12] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
+[20:10:12] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
+[20:10:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[20:10:12] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[20:10:12] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.11+7055-8357a12
+[20:10:12] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:10:12] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[20:10:12] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[20:10:12] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.158
+[20:10:12] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:10:12] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:10:12] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:10:12] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.1
+[20:10:12] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:10:12] [Server thread/INFO]: Saving players
+[20:10:12] [Server thread/INFO]: -Mrbost6293 lost connection: Server closed
+[20:10:12] [Server thread/INFO]: -Mrbost6293 left the game
+[20:10:12] [Server thread/INFO]: Saving worlds
+[20:10:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 72 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[20:10:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[20:10:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[20:10:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[flatroom]'/minecraft:flatroom
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'flatroom'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'flatroom'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'flatroom'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Saved 571 block chunks, 32 entity chunks, 0 poi chunks in world 'flatroom' in 0.20s
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'flatroom'
+[20:10:12] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'flatroom'
+[20:10:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:10:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:10:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:10:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (flatroom): All chunks are saved
+[20:10:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:10:12] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[20:10:12] [Server thread/INFO]: All I/O tasks to complete
+[20:10:12] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[20:10:12] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
