@@ -283,3 +283,51 @@ CloseCode(4004 / The account token sent with your identify payload is incorrect.
 [19:46:39] [Server thread/INFO]: -Mrbost6293 issued server command: /setblock air
 [19:47:26] [Server thread/INFO]: -Mrbost6293 issued server command: //setblock
 [19:47:35] [Server thread/INFO]: -Mrbost6293 issued server command: //setblock 1
+[19:47:59] [Server thread/INFO]: -Mrbost6293 issued server command: /worldedit help
+[19:48:18] [Server thread/INFO]: -Mrbost6293 issued server command: /we help 2
+[19:48:27] [Server thread/INFO]: -Mrbost6293 issued server command: /we 2
+[19:48:51] [Server thread/INFO]: Invalid sub-command '2'. Options: help, version, trace, reload, cui, tz, report
+[19:48:51] [Server thread/INFO]: Usage: /we <help|version|trace|reload|cui|tz|report>
+[19:49:02] [Server thread/INFO]: The command '2' could not be found.
+[19:49:10] [Server thread/INFO]: -------------------- Help --------------------
+? //: Toggle the super pickaxe function
+? /.s: Execute last CraftScript
+? /ascend: Go up a floor
+? /biomeinfo: Get the biome of the targeted block.
+? /biomelist: Gets all biomes available.
+? /brush: Brushing commands
+? /butcher: Kill all or nearby mobs
+? //calculate: Evaluate a mathematical expression
+? /ceil: Go to the ceiling
+? //center: Set the center block(s)
+? //chunk: Set the selection to your current chunk.
+? /chunkinfo: Get information about the chunk you're inside
+? /clearclipboard: Clear your clipboard
+? /clearhistory: Clear your history
+? //cone: Generates a cone.
+? //contract: Contract the selection area
+? //copy: Copy the selection to the clipboard
+? //count: Counts the number of blocks matching a mask
+? /cs: Execute a CraftScript
+? //curve: Draws a spline through selected points
+----------------- Page 1 of 7 -----------------
+[19:50:23] [Server thread/INFO]: -Mrbost6293 issued server command: /cr
+[19:50:42] [Server thread/INFO]: -Mrbost6293 issued server command: /worldguard
+[19:51:00] [Server thread/INFO]: /worldguard <running|debug|reload|stopprofile|profile|flushstates|report|version>
+[19:55:06] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Mrbost6293 has disconnected from the Java server because of Bedrock client disconnected
+[19:55:06] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 disconnected
+[19:55:06] [Server thread/INFO]: -Mrbost6293 lost connection: Disconnected
+[19:55:06] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[19:55:06] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[19:55:06] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
+[19:55:06] [Server thread/INFO]: -Mrbost6293 left the game
+[19:55:36] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Mrbost6293
+[19:55:36] [localSession-7-3/INFO]: [Geyser-Spigot] Mrbost6293 (logged in as: Mrbost6293) has connected to the Java server
+[19:55:37] [Server thread/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 joined (UUID: 00000000-0000-0000-0009-01fe0d5598dd)
+[19:55:37] [Server thread/INFO]: -Mrbost6293 joined the game
+[19:55:37] [Server thread/INFO]: -Mrbost6293[/127.0.0.1:0] logged in with entity id 1585 at ([flatroom]-66.711044, -40.31424, 9.052775)
+[19:56:35] [Server thread/INFO]: -Mrbost6293 issued server command: /region define mina
+[19:56:48] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'flatroom' have been background saved
+[19:57:03] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[19:57:16] [Server thread/INFO]: -Mrbost6293 issued server command: /deop @a
+[19:57:16] [Server thread/INFO]: [-Mrbost6293: Made -Mrbost6293 no longer a server operator]
