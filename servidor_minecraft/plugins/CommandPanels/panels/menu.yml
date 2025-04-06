@@ -1,0 +1,132 @@
+panels:
+  template:
+    rows: '6'
+    title: '&8menu'
+    empty: AIR
+    item:
+      '0':
+        material: blue_stained_glass_pane
+      '1':
+        material: blue_stained_glass_pane
+      '2':
+        material: blue_stained_glass_pane
+      '3':
+        material: orange_stained_glass_pane
+      '4':
+        material: orange_stained_glass_pane
+      '5':
+        material: orange_stained_glass_pane
+      '6':
+        material: yellow_stained_glass_pane
+      '7':
+        material: yellow_stained_glass_pane
+      '8':
+        material: yellow_stained_glass_pane
+      '9':
+        material: blue_stained_glass_pane
+      '10':
+        material: blue_stained_glass_pane
+      '11':
+        material: blue_stained_glass_pane
+      '12':
+        material: orange_stained_glass_pane
+      '13':
+        material: netherite_sword
+        name: spawn
+        commands:
+          - spawn
+      '14':
+        material: orange_stained_glass_pane
+      '15':
+        material: yellow_stained_glass_pane
+      '16':
+        material: yellow_stained_glass_pane
+      '17':
+        material: yellow_stained_glass_pane
+      '18':
+        material: blue_stained_glass_pane
+      '19':
+        material: blue_stained_glass_pane
+      '20':
+        material: diamond_ore
+        name: mina pvp
+        commands:
+          - 'warp minapvp '
+      '21':
+        material: orange_stained_glass_pane
+      '22':
+        material: orange_stained_glass_pane
+      '23':
+        material: orange_stained_glass_pane
+      '24':
+        material: coal_ore
+        name: mina sin pvp
+        commands:
+          - warp mina
+      '25':
+        material: yellow_stained_glass_pane
+      '26':
+        material: yellow_stained_glass_pane
+      '27':
+        material: blue_stained_glass_pane
+      '28':
+        material: blue_stained_glass_pane
+      '29':
+        material: blue_stained_glass_pane
+      '30':
+        material: orange_stained_glass_pane
+      '31':
+        material: filled_map
+        name: surveval
+        commands:
+          - rtp
+      '32':
+        material: orange_stained_glass_pane
+      '33':
+        material: yellow_stained_glass_pane
+      '34':
+        material: yellow_stained_glass_pane
+      '35':
+        material: yellow_stained_glass_pane
+      '36':
+        material: blue_stained_glass_pane
+      '37':
+        material: clock
+        name: evetos
+      '38':
+        material: blue_stained_glass_pane
+      '39':
+        material: orange_stained_glass_pane
+      '40':
+        material: orange_stained_glass_pane
+      '41':
+        material: orange_stained_glass_pane
+      '42':
+        material: yellow_stained_glass_pane
+      '43':
+        material: red_shulker_box
+        name: crates
+        commands:
+          - warp crates
+      '44':
+        material: yellow_stained_glass_pane
+      '45':
+        material: blue_stained_glass_pane
+      '46':
+        material: blue_stained_glass_pane
+      '47':
+        material: blue_stained_glass_pane
+      '48':
+        material: orange_stained_glass_pane
+      '49':
+        material: orange_stained_glass_pane
+      '50':
+        material: orange_stained_glass_pane
+      '51':
+        material: yellow_stained_glass_pane
+      '52':
+        material: yellow_stained_glass_pane
+      '53':
+        material: yellow_stained_glass_pane
+    commands:
+      - /menu

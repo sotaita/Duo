@@ -1,0 +1,40 @@
+#✦------------------------------------------------------✦
+#|                   Scoreboard Config                   |
+#✦------------------------------------------------------✦
+# RealScoreboard created by joserodpt and maintained by Neziw
+# Parameter explanation:
+# - Default: if the scoreboard is the default one, doesn't require a permission
+# - Default-World: the default world where the scoreboard appears
+# - Display-Name: used for GUI and other purposes.
+# - Refresh-Scoreboard: the main refresh delay for the whole scoreboard
+# - Refresh-Title: refresh delay only for the scoreboard title
+# - Title-Loop-Delay: loop delay for the title animation task
+# - Board-Loop-Delay: loop delay for the bards switching task (if the scoreboard has multiple boards)
+Version: 3
+Scoreboards:
+  default:
+    Default: true
+    Default-World: world
+    Other-Worlds:
+    - '*'
+    Display-Name: '&fDefault Board'
+    Permission: none
+    Refresh:
+      Scoreboard: 5
+      Title: 10
+      Title-Loop-Delay: 5
+      Board-Loop-Delay: 30
+    Boards:
+      Board1:
+        Title:
+        - '&#FB0808&l&oD&#FB3713&l&oU&#FC671E&l&oO&#FC9629&l&oC&#FCC534&l&oR&#FCD35F&l&oA&#FCE189&l&oF&#FCEFB4&l&oT'
+        Lines:
+        - '%blank%'
+        - ' &7Jugador: &f%playername% &8| &f%ping%'
+        - ' &7Rango:  %luckperms_groups%'
+        - ' &7Dinero: %vault_eco_balance_formatted% &8| &7XP: &f%xp%'
+        - '%blank%'
+        - ' &7Online: &f%online%&8/&f%maxplayers%'
+        - '%blank%'
+        - '&#FB0808&l&od&#FB1D0D&l&ou&#FB3212&l&oo&#FB4717&l&oc&#FB5C1C&l&or&#FC7120&l&oa&#FC8625&l&of&#FC9B2A&l&ot&#FCB02F&l&om&#FCC534&l&oc&#FCCA44&l&o.&#FCD054&l&oc&#FCD564&l&ob&#FCDA74&l&ou&#FCDF84&l&o.&#FCE594&l&on&#FCEAA4&l&oe&#FCEFB4&l&ot'
+ 
