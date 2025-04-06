@@ -256,3 +256,30 @@
 [19:36:57] [Server thread/INFO]: Nether "world_nether": 49 chunks, 1 entities, 0 tiles.
 [19:36:57] [Server thread/INFO]: The End "world_the_end": 49 chunks, 10 entities, 0 tiles.
 [19:36:57] [Server thread/INFO]: World "flatroom": 361 chunks, 31 entities, 237 tiles.
+[19:38:06] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[19:38:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[19:38:08] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] [JDA] WebSocket connection was closed and cannot be recovered due to identification issues
+CloseCode(4004 / The account token sent with your identify payload is incorrect.)
+[19:38:08] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[19:38:08] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[19:38:08] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  DiscordSRV was disconnected from Discord because:
+[19:38:08] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  The bot token is invalid
+[19:38:08] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[19:38:08] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[19:38:08] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[19:38:13] [DiscordSRV - Shutdown/WARN]: [DiscordSRV] JDA took too long to shut down, skipping
+[19:38:13] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 5005ms
+[19:38:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4964ms or 99 ticks behind
+[19:38:54] [Server thread/INFO]: -Mrbost6293 issued server command: /delwarp minapvp
+[19:39:08] [Server thread/INFO]: -Mrbost6293 issued server command: /setwarp minapvp
+[19:41:00] [Server thread/INFO]: -Mrbost6293 has made the advancement [Minecraft: Trial(s) Edition]
+[19:41:31] [Server thread/INFO]: -Mrbost6293 has made the advancement [Monster Hunter]
+[19:44:50] [Server thread/INFO]: -Mrbost6293 issued server command: /setblock
+[19:45:01] [Server thread/INFO]: -Mrbost6293 issued server command: //up 1
+[19:45:08] [Server thread/INFO]: -Mrbost6293 issued server command: /up 1
+[19:45:23] [Server thread/INFO]: -Mrbost6293 issued server command: //copy
+[19:45:39] [Server thread/INFO]: -Mrbost6293 issued server command: //paste
+[19:46:24] [Server thread/INFO]: -Mrbost6293 issued server command: /up 1
+[19:46:39] [Server thread/INFO]: -Mrbost6293 issued server command: /setblock air
+[19:47:26] [Server thread/INFO]: -Mrbost6293 issued server command: //setblock
+[19:47:35] [Server thread/INFO]: -Mrbost6293 issued server command: //setblock 1
