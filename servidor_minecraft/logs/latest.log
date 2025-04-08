@@ -402,3 +402,14 @@
 [18:19:10] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs action 1 add cmd mv tp flatroom
 [18:19:22] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
 [18:19:27] [Server thread/INFO]: -Mrbost6293 issued server command: /time set day
+[18:20:43] [Server thread/INFO]: -Mrbost6293 issued server command: /give -Mrbost6293 barrier
+[18:22:29] [Server thread/INFO]: -Mrbost6293 issued server command: //copy
+[18:23:18] [Server thread/INFO]: -Mrbost6293 issued server command: //paste
+[18:23:44] [Server thread/INFO]: -Mrbost6293 issued server command: //set 0
+[18:24:31] [Server thread/INFO]: -Mrbost6293 issued server command: //copy
+[18:24:55] [Server thread/INFO]: -Mrbost6293 issued server command: //paste
+[18:25:52] [Server thread/INFO]: -Mrbost6293 issued server command: /plugins
+[18:26:16] [Server thread/INFO]: -Mrbost6293 issued server command: /catamines
+[18:26:52] [Server thread/INFO]: -Mrbost6293 issued server command: /cm create mina
+[18:27:08] [Server thread/INFO]: -Mrbost6293 issued server command: /cm gui
+[18:28:04] [Server thread/INFO]: -Mrbost6293 issued server command: /cm gui

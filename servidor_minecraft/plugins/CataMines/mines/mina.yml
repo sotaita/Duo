@@ -1,0 +1,80 @@
+Mine:
+  ==: de.c4t4lysm.catamines.utils.mine.mines.CuboidCataMine
+  name: mina
+  region:
+    type: CUBOID
+    world: flatroom
+    p1:
+      ==: org.bukkit.Location
+      world: flatroom
+      x: -193.0
+      y: -59.0
+      z: -13.0
+      pitch: 0.0
+      yaw: 0.0
+    p2:
+      ==: org.bukkit.Location
+      world: flatroom
+      x: -176.0
+      y: -56.0
+      z: 2.0
+      pitch: 0.0
+      yaw: 0.0
+  composition:
+  - block: minecraft:diamond_ore
+    chance: 10.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:stone
+    chance: 20.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:emerald_ore
+    chance: 10.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:copper_ore
+    chance: 10.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:gold_ore
+    chance: 10.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:lapis_ore
+    chance: 10.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:coal_ore
+    chance: 0.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:redstone_ore
+    chance: 0.0
+    addLootTable: false
+    lootTable: []
+  resetMode: TIME
+  resetDelay: 0
+  countdown: 0
+  resetPercentage: 0.0
+  replaceMode: false
+  teleportPlayers: false
+  teleportPlayersToResetLocation: false
+  isStopped: false
+  warn:
+    warnHotbar: false
+    warnHotbarMessage: default
+    enableWarn: false
+    warnGlobal: false
+    warnMessage: default
+    resetMessage: default
+    warnSeconds:
+    - 600
+    - 300
+    - 60
+    - 20
+    - 5
+    warnDistance: 5
+  minEfficiencyLvl: 0
+  teleportLocation: null
+  teleportResetLocation: null
