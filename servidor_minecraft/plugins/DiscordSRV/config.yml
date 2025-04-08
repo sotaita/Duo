@@ -6,11 +6,10 @@ ConfigVersion: 1.29.0
 
 # Bot token; don't know what this is? Look at the video on the plugin page for instructions
 # You must restart your server after changing this option
-BotToken: "MTM0NDExMTA3ODg1Mzk3MTk4OA.G6RYVr.2phODQwf2tnVHivi6AbeakcS8MFwWl7itDlurI"
+BotToken: "MTM0NDExMTA3ODg1Mzk3MTk4OA.G14PR7.JhKOTpnji_wWt5QDIs18y4Ij8RpW496aOGqOTA"
 
 # Channel links from game to Discord
-# syntax is Channels: {"in-game channel name from Minecraft": "numerical channel ID from Discord", "another in-game channel name from Minecraft": "another numerical channel ID from Discord"}
-#
+# syntax is Channels: {"in-game channel name from Minecraft": "numerical channel ID from Discord", "another in-game channel name from Minecraft": "another numerical channel ID from Disco
 # All of DiscordSRV's messages will go to the first channel unless there's a channel for that type of messages defined:
 # when using a compatible chat plugin, the channel name will be the one from that plugin (for chat messages)
 #  - If you're using TownyChat, the default channel is usually called "general" instead of "global"
