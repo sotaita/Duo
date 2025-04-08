@@ -1,5 +1,5 @@
 worlds:
-  world:
+  aaa:
     ==: MVWorld
     hidden: 'false'
     alias: ''
@@ -33,16 +33,63 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 48.0
-      y: 69.0
-      z: 32.0
+      x: 0.0
+      y: -60.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-6265163590937916906'
+    seed: '-5121592984529129218'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  flatroom:
+    ==: MVWorld
+    hidden: 'false'
+    alias: ''
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: EASY
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.0
+      y: -60.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-2079362451611710401'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -93,7 +140,7 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  flatroom:
+  world:
     ==: MVWorld
     hidden: 'false'
     alias: ''
@@ -127,16 +174,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.0
-      y: -60.0
-      z: 0.0
+      x: 48.0
+      y: 69.0
+      z: 32.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-2079362451611710401'
+    seed: '-6265163590937916906'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
