@@ -93,8 +93,8 @@ command-blocks:
   permissions-level: 2
 entities:
   armor-stands:
-    do-collision-entity-lookups: false
-    tick: false
+    do-collision-entity-lookups: true
+    tick: true
   behavior:
     allow-spider-world-border-climbing: true
     baby-zombie-movement-modifier: 0.5
@@ -367,4 +367,3 @@ tick-rates:
 unsupported-settings:
   disable-world-ticking-when-empty: false
   fix-invulnerable-end-crystal-exploit: true
-armor
