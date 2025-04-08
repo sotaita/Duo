@@ -707,3 +707,32 @@
 [21:03:47] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs reload
 [21:03:57] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs
 [21:04:50] [Server thread/INFO]: Unknown subcommand for arguments.
+[21:06:31] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs create 2 player aa
+[21:07:01] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs create 2 player aab
+[21:07:30] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username JesusJM70
+[21:07:30] [localSession-7-3/INFO]: [Geyser-Spigot] JesusJM70 (logged in as: JesusJM70) has connected to the Java server
+[21:07:30] [Server thread/INFO]: [floodgate] Floodgate player logged in as -JesusJM70 joined (UUID: 00000000-0000-0000-0009-01f1d20121f2)
+[21:07:31] [Server thread/INFO]: -JesusJM70 joined the game
+[21:07:31] [Server thread/INFO]: -JesusJM70[/127.0.0.1:0] logged in with entity id 1680 at ([world]16.5, 64.0, 0.5)
+[21:08:02] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Capybara mc7664
+[21:08:02] [localSession-7-4/INFO]: [Geyser-Spigot] Capybara mc7664 (logged in as: Capybara_mc7664) has connected to the Java server
+[21:08:02] [User Authenticator #1/INFO]: UUID of player Capybara_mc7664 is 7056b5ac-287d-3318-8a59-878e0cac2195
+[21:08:02] [Server thread/INFO]: Capybara_mc7664 joined the game
+[21:08:02] [Server thread/INFO]: Capybara_mc7664[/127.0.0.1:0] logged in with entity id 1689 at ([world]6.5, 63.0, -9.5)
+[21:08:02] [Server thread/INFO]: Capybara_mc7664 has made the advancement [Getting an Upgrade]
+[21:08:48] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs action 2 add cmd mv tp world
+[21:09:49] [Server thread/INFO]: -Mrbost6293 issued server command: /time set day
+[21:10:52] [Server thread/INFO]: -Mrbost6293 issued server command: /tp -Mrbost6293 Capybara_mc7664
+[21:11:07] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[21:11:37] [Server thread/INFO]: -JesusJM70 issued server command: /gamemode 1
+[21:11:37] [Server thread/INFO]: [Essentials] -JesusJM70 was denied access to command.
+[21:11:52] [Server thread/INFO]: -Mrbost6293 has made the advancement [Stone Age]
+[21:12:29] [Server thread/INFO]: -JesusJM70 was slain by Capybara_mc7664
+[21:13:14] [Server thread/INFO]: -Mrbost6293 issued server command: /tp -JesusJM70 -Mrbost6293
+[21:16:12] [Server thread/INFO]: -Mrbost6293 issued server command: /kick -JesusJM70 jajaja
+[21:16:12] [localSession-7-3/INFO]: [Geyser-Spigot] JesusJM70 has disconnected from the Java server because of jajaja
+[21:16:12] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as -JesusJM70 disconnected
+[21:16:12] [Server thread/INFO]: -JesusJM70 lost connection: jajaja
+[21:16:12] [Server thread/INFO]: -JesusJM70 left the game
+[21:16:12] [Server thread/INFO]: [Essentials] Player -Mrbost6293 kicked -JesusJM70 for jajaja.
+[21:16:27] [Async Chat Thread - #8/INFO]: [Not Secure] <-Mrbost6293> ????

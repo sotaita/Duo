@@ -35,5 +35,36 @@
     "npcEquip": {},
     "npcFunctions": {},
     "customizationMap": {}
+  },
+  {
+    "id": 2,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNTk0NTMyNjY0OCwKICAicHJvZmlsZUlkIiA6ICI0YThmMzZjMTIxODU0OGQxYjhkMjZkNWY1ZTNjNDM1YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJhYWIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ1MjA2OGNhODc5OGY2ZWRkNGYyZTJkYmFhZTM2ZGExOTMxODEzZDA0NjU4NWVhODA2YWM3YmIwYTE0ZTU1IgogICAgfQogIH0KfQ==",
+    "signature": "gxAPcoWLV7WGnn4CuNrrUr45YFDbnJQ/xPe5nAfS1xFisWupbBr9q41fbMKU9DApnH5fLcUTFi9fA5gQpIlHbIwUqDJNZ0dOBi6ikfF0ZMMP/tVWDUilx6oGcruwCRauzsSVEd3tixmRgyYPZNUfytdtffq+5qlJPSUsgUheD5eRdPyPmQBnpqkQYUN/2NDaHfRUBRrVRUAhW7UZSLY7LOmq9Yj+zdLciBnnCC6YT7czL8+FoviOZmORi1jA3Ga59YHdUwiHYzzHuB/I/NWazMJg7hqavocr09etNyfzNm97M4zN/g3HnVdV5i4yRB6o4ej/VqGUMe0bA2ubNRwU7A9DLHRWyvOVhxI6sKw3m/HjKFcAnmDqZ/Nb4jZloSV5SYafyQl6imBAAEaUMiBZktXBsqmX32rYMi1gUGXHB6CsLdBkugrOqyt+G5Qc8fHyITXX26bHVCQsJoOY7lGsu9kqqZzQXmPDTa6fWhk7nHh4llFqjuvIcRcybdWGY/RGncfRtZsamcRa8LZlMU7gcXEfEa+2bwSGek9qKL14QqqQffVJNa1xZLN1xGnGsIeV12wE1HicFuFZw/m5UDPJdxkFjrKHl8IHwpvJj3L7mSA72UOTp30AOU51c2hyws6YbzGwbDtpjWTbh7WMqz+8elkNDZ2jvSIMFtmu8ewg14g=",
+    "skinName": "Steve",
+    "location": {
+      "world": "flatroom",
+      "x": 0.5,
+      "y": -24.0,
+      "z": 0.5,
+      "yaw": 127.13425,
+      "pitch": 35.065033
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "aab"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "mv tp world",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
   }
 ]
