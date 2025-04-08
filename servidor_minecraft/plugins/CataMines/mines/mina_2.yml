@@ -1,0 +1,48 @@
+Mine:
+  ==: de.c4t4lysm.catamines.utils.mine.mines.CuboidCataMine
+  name: mina_2
+  region:
+    type: CUBOID
+    world: flatroom
+    p1:
+      ==: org.bukkit.Location
+      world: flatroom
+      x: -127.0
+      y: -56.0
+      z: -11.0
+      pitch: 0.0
+      yaw: 0.0
+    p2:
+      ==: org.bukkit.Location
+      world: flatroom
+      x: -110.0
+      y: -51.0
+      z: 9.0
+      pitch: 0.0
+      yaw: 0.0
+  composition: []
+  resetMode: TIME
+  resetDelay: 0
+  countdown: 0
+  resetPercentage: 0.0
+  replaceMode: false
+  teleportPlayers: false
+  teleportPlayersToResetLocation: false
+  isStopped: false
+  warn:
+    warnHotbar: false
+    warnHotbarMessage: default
+    enableWarn: false
+    warnGlobal: false
+    warnMessage: default
+    resetMessage: default
+    warnSeconds:
+    - 600
+    - 300
+    - 60
+    - 20
+    - 5
+    warnDistance: 5
+  minEfficiencyLvl: 0
+  teleportLocation: null
+  teleportResetLocation: null

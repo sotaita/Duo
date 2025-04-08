@@ -54,8 +54,8 @@ Mine:
     addLootTable: false
     lootTable: []
   resetMode: TIME
-  resetDelay: 0
-  countdown: 0
+  resetDelay: 40
+  countdown: 5
   resetPercentage: 0.0
   replaceMode: false
   teleportPlayers: false
