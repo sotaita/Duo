@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1744141421140
   login: 1744141243501
 money: '0'
 last-account-name: JesusJM70
@@ -28,3 +28,11 @@ lastlocation:
   z: 0.5
   yaw: 0.0
   pitch: 0.0
+logoutlocation:
+  world: 86aafe61-5f7b-4a70-b719-a2fa017f07ec
+  world-name: flatroom
+  x: -183.5
+  y: -50.0
+  z: 4.5
+  yaw: -116.24824523925781
+  pitch: 38.38336181640625

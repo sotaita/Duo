@@ -312,3 +312,100 @@
 [19:40:43] [Server thread/INFO]: JesusJM70[/127.0.0.1:0] logged in with entity id 496 at ([world]6.5, 63.0, 0.5)
 [19:40:43] [Server thread/INFO]: JesusJM70 has made the advancement [Getting an Upgrade]
 [19:40:51] [Server thread/INFO]: -Mrbost6293 issued server command: /tp JesusJM70 -Mrbost6293
+[19:43:41] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] JesusJM70 has disconnected from the Java server because of Bedrock client timed out
+[19:43:41] [Server thread/INFO]: JesusJM70 lost connection: Disconnected
+[19:43:41] [Server thread/INFO]: JesusJM70 left the game
+[19:43:51] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag create mina_1
+[19:44:24] [Server thread/INFO]: -Mrbost6293 issued server command: /rg create mina_1
+[19:44:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'flatroom' have been background saved
+[19:44:49] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag mina_1 list
+[19:45:31] [Async Chat Thread - #1/INFO]: [Not Secure] <-Mrbost6293> rg flag block-break allow
+[19:45:58] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag block-break allow
+[19:47:08] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag mina_1 block-break allow
+[19:47:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'flatroom' have been background saved
+[19:47:56] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Mrbost6293 has disconnected from the Java server because of Bedrock client disconnected
+[19:47:56] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 disconnected
+[19:47:56] [Server thread/INFO]: -Mrbost6293 lost connection: Disconnected
+[19:47:56] [Server thread/INFO]: -Mrbost6293 left the game
+[19:48:07] [Server thread/WARN]: -Capybara_mc7664 moved wrongly!
+[19:48:08] [Server thread/WARN]: -Capybara_mc7664 moved wrongly!
+[19:48:30] [Server thread/INFO]: -Capybara_mc7664 hit the ground too hard
+[19:48:56] [Server thread/INFO]: Stopping the server
+[19:48:56] [Server thread/INFO]: Stopping server
+[19:48:56] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[19:48:56] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 354ms
+[19:48:56] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.1-dev+12-8455212
+[19:48:56] [Server thread/INFO]: [CommandPanels] Disabling CommandPanels v3.21.5
+[19:48:56] [Server thread/INFO]: RockyHawk's CommandPanels Plugin Disabled, aww man.
+[19:48:56] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[19:48:56] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[19:48:56] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[19:48:56] [Server thread/INFO]: [Geyser-Spigot] Capybara mc7664 has disconnected from the Java server because of Apagando Geyser Proxy.
+[19:48:56] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as -Capybara_mc7664 disconnected
+[19:48:56] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[19:48:56] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[19:48:56] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.1-dev+12-8455212
+[19:48:56] [Server thread/INFO]: [PhoenixCratesLite] Disabling PhoenixCratesLite v4.0
+[19:48:56] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
+[19:48:56] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[19:48:56] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[19:48:56] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[19:48:56] [Server thread/INFO]: [RealScoreboard] Disabling RealScoreboard v1.5.3
+[19:48:56] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v5.0
+[19:48:56] [Server thread/INFO]: [CataMines] Disabling CataMines v2.5.11
+[19:48:56] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[19:48:56] [WebSocketConnectReadThread-160/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[19:48:56] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
+[19:48:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[19:48:56] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
+[19:48:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.11+7055-8357a12
+[19:48:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:48:56] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[19:48:56] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[19:48:56] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.158
+[19:48:56] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[19:48:56] [Server thread/INFO]: [LuckPerms] Closing storage...
+[19:48:56] [Server thread/INFO]: [LuckPerms] Goodbye!
+[19:48:56] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.1
+[19:48:56] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[19:48:56] [Server thread/INFO]: Saving players
+[19:48:56] [Server thread/INFO]: -Capybara_mc7664 lost connection: Server closed
+[19:48:56] [Server thread/INFO]: -Capybara_mc7664 left the game
+[19:48:56] [Server thread/INFO]: Saving worlds
+[19:48:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:48:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:48:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:48:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Saved 30 block chunks, 96 entity chunks, 0 poi chunks in world 'world' in 0.08s
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[19:48:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[19:48:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[19:48:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[flatroom]'/minecraft:flatroom
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'flatroom'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'flatroom'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'flatroom'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Saved 35 block chunks, 34 entity chunks, 0 poi chunks in world 'flatroom' in 0.04s
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'flatroom'
+[19:48:57] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'flatroom'
+[19:48:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:48:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:48:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:48:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (flatroom): All chunks are saved
+[19:48:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:48:57] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[19:48:57] [Server thread/INFO]: All I/O tasks to complete
+[19:48:57] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[19:48:57] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
