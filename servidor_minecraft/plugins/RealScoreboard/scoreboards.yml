@@ -31,7 +31,7 @@ Scoreboards:
         Lines:
         - '%blank%'
         - '&l＞ info'
-        - ' &7Nick: &f%player_displayname% &8'
+        - ' &7Nick: &f%player_name% &8'
         - ' &7Rango: %luckperms_groups%'
         - ' &7Dinero: %vault_eco_balance_formatted% &8| &7XP: &f%xp%'
         - '%blank%'
