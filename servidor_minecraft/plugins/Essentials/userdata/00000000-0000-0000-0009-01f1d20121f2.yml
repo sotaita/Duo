@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1744146972640
-  login: 1744146451043
+  logout: 1744147465284
+  login: 1744147258634
 money: '0'
 last-account-name: -JesusJM70
 lastlocation:
   world: 86178c68-576a-4464-85d7-784c86d3ca6a
   world-name: world
-  x: 15.521656
-  y: 62.63033
-  z: 13.588409
-  yaw: -0.384979248046875
-  pitch: 37.63739013671875
+  x: 15.700001
+  y: 64.0
+  z: 0.30000999999999994
+  yaw: -1.52587890625E-5
+  pitch: 0.0
 logoutlocation:
   world: 86178c68-576a-4464-85d7-784c86d3ca6a
   world-name: world
-  x: 15.521656
-  y: 62.63033
-  z: 13.588409
-  yaw: -0.384979248046875
-  pitch: 37.63739013671875
+  x: 15.700001
+  y: 64.0
+  z: 0.30000999999999994
+  yaw: -1.52587890625E-5
+  pitch: 0.0
