@@ -18,7 +18,20 @@
       "aaa"
     ],
     "refreshSkinDuration": 0,
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "mv tp %player% flatroom",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "mv tp flatroom",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {},
     "customizationMap": {}

@@ -335,3 +335,70 @@
 [18:05:32] [Server thread/WARN]: 	... 28 more
 [18:07:19] [Server thread/INFO]: -Mrbost6293 issued server command: /time set sunrise
 [18:07:37] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs create 1 player aaa
+[18:10:36] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Mrbost6293 has disconnected from the Java server because of Bedrock client disconnected
+[18:10:36] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 disconnected
+[18:10:36] [Server thread/INFO]: -Mrbost6293 lost connection: Disconnected
+[18:10:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[18:10:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[18:10:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
+[18:10:36] [Server thread/INFO]: -Mrbost6293 left the game
+[18:11:13] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Mrbost6293
+[18:11:13] [localSession-7-3/INFO]: [Geyser-Spigot] Mrbost6293 (logged in as: Mrbost6293) has connected to the Java server
+[18:11:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 joined (UUID: 00000000-0000-0000-0009-01fe0d5598dd)
+[18:11:13] [Server thread/INFO]: -Mrbost6293 joined the game
+[18:11:13] [Server thread/INFO]: -Mrbost6293[/127.0.0.1:0] logged in with entity id 490 at ([world]44.18132, 71.40337, 32.999916)
+[18:12:19] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs action 1 add cmd mv tp %player% flatroom
+[18:15:05] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Mrbost6293 has disconnected from the Java server because of Bedrock client disconnected
+[18:15:05] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 disconnected
+[18:15:05] [Server thread/INFO]: -Mrbost6293 lost connection: Disconnected
+[18:15:05] [Server thread/INFO]: -Mrbost6293 left the game
+[18:16:58] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Mrbost6293
+[18:16:58] [localSession-7-4/INFO]: [Geyser-Spigot] Mrbost6293 (logged in as: Mrbost6293) has connected to the Java server
+[18:16:58] [Server thread/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 joined (UUID: 00000000-0000-0000-0009-01fe0d5598dd)
+[18:16:58] [Server thread/INFO]: -Mrbost6293 joined the game
+[18:16:58] [Server thread/INFO]: -Mrbost6293[/127.0.0.1:0] logged in with entity id 633 at ([world]44.18132, 71.40337, 32.999916)
+[18:17:37] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs
+[18:18:00] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs action 1 list
+[18:18:33] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs action 1 remove
+[18:18:33] [Server thread/WARN]: io.github.gonalez.znpcs.commands.CommandExecuteException
+[18:18:33] [Server thread/WARN]: 	at znpcs-5.0.jar//io.github.gonalez.znpcs.commands.CommandInvoker.execute(CommandInvoker.java:25)
+[18:18:33] [Server thread/WARN]: 	at znpcs-5.0.jar//io.github.gonalez.znpcs.commands.Command.execute(Command.java:69)
+[18:18:33] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82)
+[18:18:33] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:347)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:341)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2271)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$12(ServerGamePacketListenerImpl.java:2228)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264)
+[18:18:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[18:18:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[18:18:33] [Server thread/WARN]: Caused by: java.lang.IndexOutOfBoundsException: index (1) must be less than size (1)
+[18:18:33] [Server thread/WARN]: 	at com.google.common.base.Preconditions.checkElementIndex(Preconditions.java:1372)
+[18:18:33] [Server thread/WARN]: 	at com.google.common.base.Preconditions.checkElementIndex(Preconditions.java:1354)
+[18:18:33] [Server thread/WARN]: 	at com.google.common.collect.SingletonImmutableList.get(SingletonImmutableList.java:46)
+[18:18:33] [Server thread/WARN]: 	at znpcs-5.0.jar//io.github.gonalez.znpcs.commands.list.DefaultCommand.action(DefaultCommand.java:386)
+[18:18:33] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[18:18:33] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[18:18:33] [Server thread/WARN]: 	at znpcs-5.0.jar//io.github.gonalez.znpcs.commands.CommandInvoker.execute(CommandInvoker.java:23)
+[18:18:33] [Server thread/WARN]: 	... 28 more
+[18:19:10] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs action 1 add cmd mv tp flatroom
+[18:19:22] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[18:19:27] [Server thread/INFO]: -Mrbost6293 issued server command: /time set day
