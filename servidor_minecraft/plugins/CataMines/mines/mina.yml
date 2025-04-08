@@ -26,7 +26,7 @@ Mine:
     addLootTable: false
     lootTable: []
   - block: minecraft:stone
-    chance: 20.0
+    chance: 30.0
     addLootTable: false
     lootTable: []
   - block: minecraft:emerald_ore
@@ -46,11 +46,11 @@ Mine:
     addLootTable: false
     lootTable: []
   - block: minecraft:coal_ore
-    chance: 0.0
+    chance: 10.0
     addLootTable: false
     lootTable: []
   - block: minecraft:redstone_ore
-    chance: 0.0
+    chance: 10.0
     addLootTable: false
     lootTable: []
   resetMode: TIME

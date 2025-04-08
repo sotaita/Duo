@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1744137909774
+  login: 1744137639813
+money: '0'
+last-account-name: -Capybara_mc7664
+lastlocation:
+  world: 86178c68-576a-4464-85d7-784c86d3ca6a
+  world-name: world
+  x: 48.0
+  y: 69.0
+  z: 32.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 86178c68-576a-4464-85d7-784c86d3ca6a
+  world-name: world
+  x: -62.69355
+  y: 64.0
+  z: 24.819448
+  yaw: -65.36630249023438
+  pitch: 27.2169189453125
