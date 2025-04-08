@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1744147997754
-  login: 1744144638908
+  logout: 1744149138228
+  login: 1744148112100
 money: '0'
 last-account-name: -Mrbost6293
 logoutlocation:
   world: 86178c68-576a-4464-85d7-784c86d3ca6a
   world-name: world
-  x: 14.329682
-  y: 68.67389
-  z: -15.481461
-  yaw: -42.54457092285156
-  pitch: -2.3675537109375
+  x: 75.26703
+  y: 104.05791
+  z: 30.39709
+  yaw: 34.481109619140625
+  pitch: 12.469085693359375
 lastlocation:
   world: 86aafe61-5f7b-4a70-b719-a2fa017f07ec
   world-name: flatroom
