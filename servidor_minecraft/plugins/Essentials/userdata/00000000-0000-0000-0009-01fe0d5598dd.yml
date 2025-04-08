@@ -29,10 +29,10 @@ logoutlocation:
   yaw: -38.13511657714844
   pitch: 24.967193603515625
 lastlocation:
-  world: 86178c68-576a-4464-85d7-784c86d3ca6a
-  world-name: world
-  x: 48.0
-  y: 69.0
-  z: 32.0
-  yaw: 0.0
-  pitch: 0.0
+  world: 86aafe61-5f7b-4a70-b719-a2fa017f07ec
+  world-name: flatroom
+  x: -119.65118
+  y: -48.0
+  z: 6.231573
+  yaw: 105.76071166992188
+  pitch: 5.36346435546875

@@ -11,28 +11,37 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1744145719404
+  lastteleport: 1744145884347
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1744145594835
+  logout: 1744145971885
   login: 1744145628583
 money: '0'
 last-account-name: -Capybara_mc7664
 lastlocation:
-  world: 86178c68-576a-4464-85d7-784c86d3ca6a
-  world-name: world
-  x: -45.848152
-  y: 63.0
-  z: 2.7559845
-  yaw: -81.89186096191406
-  pitch: -25.64892578125
+  world: 86aafe61-5f7b-4a70-b719-a2fa017f07ec
+  world-name: flatroom
+  x: -118.620285
+  y: -50.0
+  z: 3.0341768
+  yaw: 110.58596801757812
+  pitch: 33.22694396972656
 logoutlocation:
-  world: 86178c68-576a-4464-85d7-784c86d3ca6a
-  world-name: world
-  x: -43.924538
-  y: 62.0
-  z: 2.5880907
-  yaw: 179.1705322265625
-  pitch: 42.17897033691406
+  world: 86aafe61-5f7b-4a70-b719-a2fa017f07ec
+  world-name: flatroom
+  x: 19.698673
+  y: -47.0
+  z: -57.249474
+  yaw: -110.06501770019531
+  pitch: 45.82518005371094
+homes:
+  home:
+    world: 86aafe61-5f7b-4a70-b719-a2fa017f07ec
+    world-name: flatroom
+    x: -122.272736
+    y: -48.03202
+    z: -10.672177
+    yaw: -17.44793701171875
+    pitch: 33.22694396972656
