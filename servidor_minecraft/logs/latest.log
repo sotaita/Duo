@@ -277,3 +277,23 @@
 [14:15:35] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
 [14:15:35] [luckperms-command-executor/INFO]: https://luckperms.net/editor/n5o7kLUvIo
 [14:15:43] [luckperms-worker-0/INFO]: [LP] Editor window connected successfully.
+[14:16:11] [luckperms-worker-0/INFO]: [LP] Changes have been received from the connected web editor session.
+[14:16:11] [luckperms-worker-0/INFO]: [LP] Web editor data was applied to group helper successfully.
+[14:16:11] [luckperms-worker-0/INFO]: [LP] (1 addition and 0 deletions)
+[14:16:11] [luckperms-worker-0/INFO]: +  prefix.0. (true)
+[14:16:47] [luckperms-worker-0/INFO]: [LP] Changes have been received from the connected web editor session.
+[14:16:47] [luckperms-worker-0/INFO]: [LP] Web editor data was applied to group owner successfully.
+[14:16:47] [luckperms-worker-0/INFO]: [LP] (0 additions and 1 deletion)
+[14:16:47] [luckperms-worker-0/INFO]: -  prefix.1. (true)
+[14:17:11] [luckperms-worker-0/INFO]: [LP] Changes have been received from the connected web editor session.
+[14:17:11] [luckperms-worker-0/INFO]: [LP] Web editor data was applied to group owner successfully.
+[14:17:11] [luckperms-worker-0/INFO]: [LP] (1 addition and 0 deletions)
+[14:17:11] [luckperms-worker-0/INFO]: +  group.helper (true)
+[14:17:22] [Async Chat Thread - #2/INFO]: [Not Secure] <-Mrbost6293> hola
+[14:17:31] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Mrbost6293 has disconnected from the Java server because of Bedrock client disconnected
+[14:17:31] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 disconnected
+[14:17:31] [Server thread/INFO]: -Mrbost6293 lost connection: Disconnected
+[14:17:31] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[14:17:31] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[14:17:31] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
+[14:17:31] [Server thread/INFO]: -Mrbost6293 left the game
