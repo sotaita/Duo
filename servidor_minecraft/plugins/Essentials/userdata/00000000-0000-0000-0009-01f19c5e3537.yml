@@ -17,17 +17,17 @@ timestamps:
   jail: 0
   onlinejail: 0
   logout: 1744137909774
-  login: 1744137639813
+  login: 1744141023008
 money: '0'
 last-account-name: -Capybara_mc7664
 lastlocation:
   world: 86178c68-576a-4464-85d7-784c86d3ca6a
   world-name: world
-  x: 48.0
-  y: 69.0
-  z: 32.0
-  yaw: 0.0
-  pitch: 0.0
+  x: 48.836494
+  y: 68.79672
+  z: -64.71799
+  yaw: -135.6755828857422
+  pitch: 17.798553466796875
 logoutlocation:
   world: 86178c68-576a-4464-85d7-784c86d3ca6a
   world-name: world

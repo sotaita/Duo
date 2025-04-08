@@ -1,4 +1,4 @@
-join-reminder: true
+join-reminder: false
 language: UNDEFINED
 notify-if-new-version: true
 debug: false
