@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1744121851129
-  login: 1744121624244
+  logout: 1744128744937
+  login: 1744128314712
 money: '0'
 last-account-name: -Mrbost6293
 logoutlocation:
   world: 86178c68-576a-4464-85d7-784c86d3ca6a
   world-name: world
-  x: 16.5
-  y: 64.0
-  z: 0.5
-  yaw: -1.52587890625E-5
-  pitch: 0.0
+  x: 40.092014
+  y: 72.0
+  z: 35.204742
+  yaw: -120.89456176757812
+  pitch: 14.07861328125
 lastlocation:
   world: 86178c68-576a-4464-85d7-784c86d3ca6a
   world-name: world
