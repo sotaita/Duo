@@ -14,7 +14,7 @@ regions:
         min: {x: -163, y: 8, z: 514}
         max: {x: 0, y: 214, z: 661}
         members: {}
-        flags: {}
+        flags: {invincible: allow, pvp: deny, mob-spawning: deny, block-place: deny}
         owners: {}
         type: cuboid
         priority: 0

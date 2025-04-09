@@ -1,422 +1,490 @@
-[14:58:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[14:58:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) for Minecraft 1.21.4
-[14:58:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:58:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
-[14:58:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (21):
+[15:34:39] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[15:34:39] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) for Minecraft 1.21.4
+[15:34:39] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:34:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
+[15:34:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (21):
  - CataMines (2.5.11), ClearLag (3.2.2), CommandPanels (3.21.5), DiscordSRV (1.29.0), Essentials (2.21.0), EssentialsChat (2.21.1-dev+12-8455212), EssentialsSpawn (2.21.1-dev+12-8455212), Geyser-Spigot (2.7.0-SNAPSHOT), LuckPerms (5.4.158), Multiverse-Core (4.3.14), PhoenixCratesLite (4.0), PlaceholderAPI (2.11.6), RealScoreboard (1.5.3), ServersNPC (5.0), Vault (1.7.3-b131), ViaBackwards (5.3.1), ViaRewind (4.0.7), ViaVersion (5.3.1), WorldEdit (7.3.11+7055-8357a12), WorldGuard (7.0.13+82fdc65), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[14:58:57] [ServerMain/WARN]: resource-pack-id missing, using default of 68e6cc94-691c-3ff0-96db-150c188c8bde
-[14:58:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:58:59] [ServerMain/INFO]: Loaded 1370 recipes
-[14:58:59] [ServerMain/INFO]: Loaded 1481 advancements
-[14:58:59] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[14:58:59] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 235.9ms
-[14:59:00] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[14:59:00] [Server thread/INFO]: Loading properties
-[14:59:00] [Server thread/INFO]: This server is running Paper version 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[14:59:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:59:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:59:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:59:01] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[14:59:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[14:59:01] [Server thread/INFO]: Default game type: SURVIVAL
-[14:59:01] [Server thread/INFO]: Generating keypair
-[14:59:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:59:01] [Server thread/INFO]: Using epoll channel type
-[14:59:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:59:01] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[14:59:02] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.1
-[14:59:02] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.1 is now loaded. Registering protocol transformers and injecting...
-[14:59:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[14:59:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[14:59:03] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[14:59:03] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[14:59:04] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[14:59:04] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.158
-[14:59:04] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[14:59:04] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.1
-[14:59:04] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[14:59:04] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.11+7055-8357a12
-[14:59:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@684aa5c4]
-[14:59:05] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
-[14:59:05] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
-[14:59:05] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[14:59:06] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[14:59:06] [Server thread/INFO]: [floodgate] Took 612ms to boot Floodgate
-[14:59:06] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
-[14:59:06] [Server thread/INFO]: [CataMines] Loading server plugin CataMines v2.5.11
-[14:59:06] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v5.0
-[14:59:06] [Server thread/INFO]: [RealScoreboard] Loading server plugin RealScoreboard v1.5.3
-[14:59:06] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[14:59:06] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
-[14:59:06] [Server thread/INFO]: [PhoenixCratesLite] Loading server plugin PhoenixCratesLite v4.0
-[14:59:06] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.1-dev+12-8455212
-[14:59:06] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
-[14:59:06] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[14:59:06] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[14:59:06] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v3.21.5
-[14:59:06] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.1-dev+12-8455212
-[14:59:06] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
-[14:59:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:59:06] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.158
-[14:59:07] [Server thread/INFO]:         __    
-[14:59:07] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.158
-[14:59:07] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[14:59:07] [Server thread/INFO]: 
-[14:59:07] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:59:07] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[14:59:07] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:59:07] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:59:07] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1386ms)
-[14:59:07] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[14:59:08] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[14:59:08] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[14:59:08] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[14:59:08] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[14:59:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.11+7055-8357a12
-[14:59:08] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[14:59:08] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[14:59:08] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
-[14:59:10] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
-[14:59:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:59:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:59:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:59:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:59:10] [Server thread/INFO]: Preparing level "world"
-[14:59:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:59:11] [Server thread/INFO]: Preparing spawn area: 0%
-[14:59:11] [Server thread/INFO]: Preparing spawn area: 6%
-[14:59:11] [Server thread/INFO]: Time elapsed: 902 ms
-[14:59:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:59:12] [Server thread/INFO]: Preparing spawn area: 0%
-[14:59:12] [Server thread/INFO]: Time elapsed: 432 ms
-[14:59:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:59:12] [Server thread/INFO]: Preparing spawn area: 0%
-[14:59:12] [Server thread/INFO]: Time elapsed: 133 ms
-[14:59:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.1
-[14:59:12] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[14:59:12] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.1
-[14:59:12] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[14:59:12] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[14:59:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
-[14:59:12] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[14:59:12] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[14:59:12] [Server thread/INFO]: Preparing start region for dimension minecraft:aaa
-[14:59:12] [Server thread/INFO]: Preparing spawn area: 0%
-[14:59:13] [Server thread/INFO]: Time elapsed: 321 ms
-[14:59:13] [Server thread/INFO]: Preparing start region for dimension minecraft:flatroom
-[14:59:13] [Server thread/INFO]: Preparing spawn area: 0%
-[14:59:13] [Server thread/INFO]: Time elapsed: 129 ms
-[14:59:13] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
-[14:59:13] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[14:59:13] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[14:59:13] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
-[14:59:13] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsChat to the same version.
-[14:59:13] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsSpawn to the same version.
-[14:59:14] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[14:59:14] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[14:59:14] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[14:59:14] [Server thread/INFO]: [Essentials] Using locale en
-[14:59:14] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[14:59:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[14:59:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[14:59:15] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[14:59:15] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[14:59:15] [Server thread/INFO]: [CataMines] Enabling CataMines v2.5.11
-[14:59:15] [Server thread/INFO]: [CataMines] Loading config file
-[14:59:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: catamines [2.5.11]
-[14:59:15] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v5.0
-[14:59:15] [Server thread/INFO]: [RealScoreboard] Enabling RealScoreboard v1.5.3
-[14:59:15] [Server thread/INFO]: [RealScoreboard]    ____            _ ____                     _                         _
-[14:59:15] [Server thread/INFO]: [RealScoreboard]   |  _ \ ___  __ _| / ___|  ___ ___  _ __ ___| |__   ___   __ _ _ __ __| |
-[14:59:15] [Server thread/INFO]: [RealScoreboard]   | |_) / _ \/ _` | \___ \ / __/ _ \| '__/ _ \ '_ \ / _ \ / _` | '__/ _` |
-[14:59:15] [Server thread/INFO]: [RealScoreboard]   |  _ <  __/ (_| | |___) | (_| (_) | | |  __/ |_) | (_) | (_| | | | (_| |
-[14:59:15] [Server thread/INFO]: [RealScoreboard]   |_| \_\___|\__,_|_|____/ \___\___/|_|  \___|_.__/ \___/ \__,_|_|  \__,_|
-[14:59:15] [Server thread/INFO]: [RealScoreboard]   Made by: JoseGamer_PT 		                      Version: 1.5.3
-[14:59:15] [Server thread/INFO]: [RealScoreboard] 
-[14:59:15] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
-[14:59:15] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
-[14:59:16] [Server thread/INFO]: [RealScoreboard] Server version: 1.21.4-R0.1-SNAPSHOT
-[14:59:16] [Server thread/INFO]: [RealScoreboard] Finished loading in 0.375 seconds.
-[14:59:16] [Server thread/INFO]: [RealScoreboard] <------------------ RealScoreboard v1.5.3 ------------------>
-[14:59:16] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[14:59:16] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[14:59:16] [Server thread/INFO]: [ClearLag] Loading modules...
-[14:59:16] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
-[14:59:16] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[14:59:16] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[14:59:16] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[14:59:16] [Thread-11/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
-[14:59:16] [Thread-11/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-[14:59:16] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
-[14:59:16] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
-[14:59:16] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
-[14:59:16] [Thread-11/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[14:59:16] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[14:59:16] [Server thread/INFO]: [WorldGuard] (aaa) TNT ignition is PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (aaa) Lighters are PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (aaa) Lava fire is PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (aaa) Fire spread is UNRESTRICTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aaa'
-[14:59:16] [Server thread/INFO]: [WorldGuard] (flatroom) TNT ignition is PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (flatroom) Lighters are PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (flatroom) Lava fire is PERMITTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] (flatroom) Fire spread is UNRESTRICTED.
-[14:59:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'flatroom'
-[14:59:16] [Server thread/INFO]: [WorldGuard] Loading region data...
-[14:59:16] [Server thread/INFO]: [PhoenixCratesLite] Enabling PhoenixCratesLite v4.0
-[14:59:16] [Server thread/INFO]: Loading cross version adapter...
-[14:59:16] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[14:59:23] [Server thread/INFO]:   ____    ____                               
-[14:59:23] [Server thread/INFO]:  |  _ \  / ___|                              
-[14:59:23] [Server thread/INFO]:  | |_) || |       Phoenix Crates Lite v4.0      
-[14:59:23] [Server thread/INFO]:  |  __/ | |___    https://myphoenixstore.com/
-[14:59:23] [Server thread/INFO]:  |_|     \____|                             
-[14:59:23] [Server thread/INFO]:                                                  
-[14:59:23] [Server thread/INFO]: You are using a Lite version of Phoenix Crates.
-[14:59:23] [Server thread/INFO]: Some of the features are locked behind the premium version.
-[14:59:23] [Server thread/INFO]: 
-[14:59:23] [Server thread/INFO]: If you want to unlock the next level for your server, upgrade now:
-[14:59:23] [Server thread/INFO]: https://www.myphoenixstore.com/plans/phoenix-crates
-[14:59:23] [Server thread/INFO]: 
-[14:59:23] [Server thread/INFO]: Loading settings...
-[14:59:23] [Server thread/INFO]: Loading file "config.yml".
-[14:59:24] [Server thread/INFO]: File "config.yml" is up to date. Importing configurations.
-[14:59:24] [Server thread/INFO]: Checking for possible migrations...
-[14:59:24] [Server thread/INFO]: [PhoenixCratesLite] No migrations to run.
-[14:59:24] [Server thread/INFO]: Vault founded. Preparing Economy...
-[14:59:24] [Server thread/INFO]: Placeholder API founded. Preparing placeholders...
-[14:59:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: phoenixcrates [1.0.0]
-[14:59:24] [Server thread/INFO]: Loading components...
-[14:59:24] [Server thread/INFO]: Loading database...
-[14:59:24] [Server thread/WARN]: 4 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Starting...
-[14:59:24] [Server thread/WARN]: 22 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Start completed.
-[14:59:24] [Server thread/INFO]: Loading menus...
-[14:59:24] [Server thread/INFO]: Loading file "menus/default_rewards_preview.yml".
-[14:59:24] [Server thread/INFO]: File "menus/default_rewards_preview.yml" is up to date. Importing configurations.
-[14:59:24] [Server thread/INFO]: Loading file "menus/default_crate_milestones.yml".
-[14:59:24] [Server thread/INFO]: File "menus/default_crate_milestones.yml" is up to date. Importing configurations.
-[14:59:24] [Server thread/INFO]: Loading file "menus/default_select_reward.yml".
-[14:59:24] [Server thread/INFO]: File "menus/default_select_reward.yml" is up to date. Importing configurations.
-[14:59:24] [Server thread/INFO]: Menu "default_rewards_preview" loaded successfully
-[14:59:24] [Server thread/INFO]: Menu "default_crate_milestones" loaded successfully
-[14:59:24] [Server thread/INFO]: Menu "default_select_reward" loaded successfully
-[14:59:24] [Server thread/INFO]: Loading players data...
-[14:59:24] [Server thread/INFO]: Loading crates...
-[14:59:24] [Server thread/INFO]: Loading file "locations.yml".
-[14:59:24] [Server thread/INFO]: File "locations.yml" is up to date. Importing configurations.
-[14:59:24] [Server thread/INFO]: Loading file "crates/example3.yml".
-[14:59:24] [Server thread/INFO]: File "crates/example3.yml" is up to date. Importing configurations.
-[14:59:24] [Server thread/INFO]: Loading file "crates/example2.yml".
-[14:59:24] [Server thread/INFO]: File "crates/example2.yml" is up to date. Importing configurations.
-[14:59:24] [Server thread/INFO]: Loading file "crates/example1.yml".
-[14:59:24] [Server thread/INFO]: File "crates/example1.yml" is up to date. Importing configurations.
-[14:59:24] [Server thread/INFO]: Loaded 3 types.
-[14:59:24] [Server thread/INFO]: Loaded 0 crates.
-[14:59:24] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.1-dev+12-8455212
-[14:59:24] [Server thread/WARN]: [EssentialsChat] Version mismatch! Please update all Essentials jars to the same version.
-[14:59:24] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[14:59:24] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
-[14:59:24] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v3.21.5
-[14:59:24] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.21.5 Plugin Loading...
-[14:59:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: commandpanels [1.0.0]
-[14:59:24] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.21.5 Plugin Loaded!
-[14:59:24] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.1-dev+12-8455212
-[14:59:24] [Server thread/WARN]: [EssentialsSpawn] Version mismatch! Please update all Essentials jars to the same version.
-[14:59:24] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[14:59:24] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
-[14:59:25] [Server thread/INFO]: [spark] Starting background profiler...
-[14:59:25] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[14:59:25] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[14:59:25] [Server thread/INFO]: [Geyser-Spigot] 
-[14:59:25] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b800 (git-master-ae130cf)
-[14:59:25] [Server thread/INFO]: [Geyser-Spigot] 
-[14:59:25] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[14:59:25] [pool-70-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
-[14:59:26] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
-[14:59:26] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
-[14:59:26] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  DiscordSRV could not connect to Discord because:
-[14:59:26] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  The bot token is invalid
-[14:59:26] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
-[14:59:26] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
-[14:59:29] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[14:59:29] [Server thread/INFO]: [Geyser-Spigot] Done (3.676s)! Run /geyser help for help!
-[14:59:29] [Server thread/INFO]: Done preparing level "world" (19.424s)
-[14:59:29] [Server thread/INFO]: Running delayed init tasks
-[14:59:29] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[14:59:29] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[14:59:29] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[14:59:29] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] Checking for Updates ... 
-[14:59:29] [Craft Scheduler Thread - 6 - RealScoreboard/INFO]: [RealScoreboard] The plugin is updated to the latest version.
-[14:59:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
-[14:59:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[14:59:29] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
-[14:59:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[14:59:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[14:59:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
-[14:59:29] [Server thread/INFO]: 5 placeholder hook(s) registered!
-[14:59:29] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
-[14:59:29] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] No new version available
-[14:59:29] [Server thread/INFO]: [CataMines] Loading mines from files...
-[14:59:29] [Server thread/INFO]: [CataMines] Starting mines and registering commands. Running version 2.5.11
-[14:59:29] [Server thread/INFO]: [CataMines] Registering listeners
-[14:59:29] [Server thread/INFO]: Done (38.806s)! For help, type "help"
-[15:12:55] [Server thread/INFO]: ℹ Server Plugins (21):
-[15:12:55] [Server thread/INFO]: Bukkit Plugins:
-[15:12:55] [Server thread/INFO]:  - CataMines, ClearLag, CommandPanels, DiscordSRV, Essentials, EssentialsChat, EssentialsSpawn, floodgate, Geyser-Spigot, LuckPerms
-[15:12:55] [Server thread/INFO]:  Multiverse-Core, PhoenixCratesLite, PlaceholderAPI, RealScoreboard, ServersNPC, Vault, ViaBackwards, ViaRewind, ViaVersion, WorldEdit
-[15:12:55] [Server thread/INFO]:  WorldGuard
-[15:17:03] [Server thread/INFO]: ====[ Multiverse Help ]====
-[15:17:03] [Server thread/INFO]:  Add a '?' after a command to see more about it.
-[15:17:03] [Server thread/INFO]: /mv [FILTER] [PAGE #]
-[15:17:03] [Server thread/INFO]: /mv version [-b|-h|-p] [--include-plugin-list]
-[15:17:03] [Server thread/INFO]: /mv list [filter] [page]
-[15:17:03] [Server thread/INFO]: /mv info [WORLD] [PAGE]
-[15:17:03] [Server thread/INFO]: /mv create {NAME} {ENV} -s [SEED] -g [GENERATOR[:ID]] -t [WORLDTYPE] [-n] -a [true|false]
-[15:17:03] [Server thread/INFO]: /mv clone {TARGET} {NAME} -g [GENERATOR[:ID]]
-[15:17:03] [Server thread/INFO]: /mv import {NAME} {ENV} -g [GENERATOR[:ID]] [-n]
-[15:17:03] [Server thread/INFO]: /mv reload
-[15:17:03] [Server thread/INFO]: /mv setspawn
-[15:17:03] [Server thread/INFO]: /mv coord
-[15:17:03] [Server thread/INFO]: /mv tp [PLAYER] {DESTINATION}
-[15:17:03] [Server thread/INFO]: /mv who [WORLD|--all]
-[15:17:03] [Server thread/INFO]: /mv spawn [PLAYER]
-[15:17:03] [Server thread/INFO]: /mv unload {WORLD}
-[15:17:03] [Server thread/INFO]: /mv load {WORLD}
-[15:17:03] [Server thread/INFO]: /mv remove {WORLD}
-[15:17:03] [Server thread/INFO]: /mv delete {WORLD}
-[15:17:03] [Server thread/INFO]: /mv regen {WORLD} [-s [SEED]] [--keep-gamerules]
-[15:17:03] [Server thread/INFO]: /mv confirm
-[15:17:03] [Server thread/INFO]: /mv modify {set|add|remove|clear} ...
-[15:17:03] [Server thread/INFO]: /mv purge [WORLD|all] {all|animals|monsters|MOBNAME}
-[15:17:03] [Server thread/INFO]: /mv modify add {VALUE} {PROPERTY} [WORLD] 
-[15:17:03] [Server thread/INFO]: /mv modify set {PROPERTY} {VALUE} [WORLD]
-[15:17:03] [Server thread/INFO]: /mv modify remove {PROPERTY} {VALUE} [WORLD]
-[15:17:03] [Server thread/INFO]: /mv modify clear {PROPERTY} [WORLD]
-[15:17:03] [Server thread/INFO]: /mv config {PROPERTY} {VALUE}
-[15:17:03] [Server thread/INFO]: /mv anchor {name} [-d]
-[15:17:03] [Server thread/INFO]: /mv env
-[15:17:03] [Server thread/INFO]: /mv debug [1|2|3|off|silent]
-[15:17:03] [Server thread/INFO]: /mv silent [true|false|on|off]
-[15:17:03] [Server thread/INFO]: /mv generators
-[15:17:03] [Server thread/INFO]: /mv check {PLAYER} {DESTINATION}
-[15:17:03] [Server thread/INFO]: /mv script {script} [target]
-[15:17:03] [Server thread/INFO]: /mv gamerule {RULE} {VALUE} [WORLD]
-[15:17:03] [Server thread/INFO]: /mv gamerules [WORLD]
-[15:33:49] [Server thread/INFO]: Stopping the server
-[15:33:49] [Server thread/INFO]: Stopping server
-[15:33:49] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.1-dev+12-8455212
-[15:33:49] [Server thread/INFO]: [CommandPanels] Disabling CommandPanels v3.21.5
-[15:33:49] [Server thread/INFO]: RockyHawk's CommandPanels Plugin Disabled, aww man.
-[15:33:49] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
-[15:33:49] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[15:33:49] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[15:33:49] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.1-dev+12-8455212
-[15:33:49] [Server thread/INFO]: [PhoenixCratesLite] Disabling PhoenixCratesLite v4.0
-[15:33:49] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
-[15:33:49] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[15:33:49] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[15:33:49] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[15:33:49] [Server thread/INFO]: [RealScoreboard] Disabling RealScoreboard v1.5.3
-[15:33:49] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v5.0
-[15:33:49] [Server thread/INFO]: [CataMines] Disabling CataMines v2.5.11
-[15:33:49] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
-[15:33:49] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[15:33:49] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
-[15:33:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[15:33:49] [WebSocketConnectReadThread-142/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[15:33:49] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
-[15:33:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.11+7055-8357a12
-[15:33:49] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[15:33:49] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[15:33:49] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.1
-[15:33:49] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[15:33:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.158
-[15:33:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[15:33:49] [Server thread/INFO]: [LuckPerms] Closing storage...
-[15:33:49] [Server thread/INFO]: [LuckPerms] Goodbye!
-[15:33:49] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.1
-[15:33:49] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[15:33:49] [Server thread/INFO]: Saving players
-[15:33:49] [Server thread/INFO]: Saving worlds
-[15:33:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 18 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[15:33:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[15:33:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[15:33:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[aaa]'/minecraft:aaa
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'aaa'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'aaa'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'aaa'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'aaa' in 0.00s
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'aaa'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'aaa'
-[15:33:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[flatroom]'/minecraft:flatroom
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'flatroom'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'flatroom'
-[15:33:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'flatroom'
-[15:33:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'flatroom' in 0.02s
-[15:33:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'flatroom'
-[15:33:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'flatroom'
-[15:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (aaa): All chunks are saved
-[15:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (flatroom): All chunks are saved
-[15:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:33:50] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[15:33:50] [Server thread/INFO]: All I/O tasks to complete
-[15:33:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[15:33:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[15:34:44] [ServerMain/WARN]: resource-pack-id missing, using default of 68e6cc94-691c-3ff0-96db-150c188c8bde
+[15:34:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:34:46] [ServerMain/INFO]: Loaded 1370 recipes
+[15:34:46] [ServerMain/INFO]: Loaded 1481 advancements
+[15:34:46] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[15:34:46] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 227.0ms
+[15:34:46] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[15:34:46] [Server thread/INFO]: Loading properties
+[15:34:47] [Server thread/INFO]: This server is running Paper version 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[15:34:47] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:34:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:34:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:34:47] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:34:47] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:34:48] [Server thread/INFO]: Default game type: SURVIVAL
+[15:34:48] [Server thread/INFO]: Generating keypair
+[15:34:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:34:48] [Server thread/INFO]: Using epoll channel type
+[15:34:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:34:48] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:34:49] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.1
+[15:34:49] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.1 is now loaded. Registering protocol transformers and injecting...
+[15:34:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:34:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:34:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:34:50] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:34:51] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[15:34:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.158
+[15:34:51] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[15:34:51] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.1
+[15:34:51] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[15:34:51] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.11+7055-8357a12
+[15:34:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@74a488b1]
+[15:34:52] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[15:34:52] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[15:34:52] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[15:34:52] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[15:34:52] [Server thread/INFO]: [floodgate] Took 591ms to boot Floodgate
+[15:34:52] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+[15:34:52] [Server thread/INFO]: [CataMines] Loading server plugin CataMines v2.5.11
+[15:34:52] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v5.0
+[15:34:52] [Server thread/INFO]: [RealScoreboard] Loading server plugin RealScoreboard v1.5.3
+[15:34:52] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[15:34:52] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
+[15:34:52] [Server thread/INFO]: [PhoenixCratesLite] Loading server plugin PhoenixCratesLite v4.0
+[15:34:52] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.1-dev+12-8455212
+[15:34:52] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[15:34:53] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[15:34:53] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[15:34:53] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v3.21.5
+[15:34:53] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.1-dev+12-8455212
+[15:34:53] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
+[15:34:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:34:53] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.158
+[15:34:54] [Server thread/INFO]:         __    
+[15:34:54] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.158
+[15:34:54] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:34:54] [Server thread/INFO]: 
+[15:34:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:34:54] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:34:54] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:34:54] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:34:54] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1366ms)
+[15:34:54] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[15:34:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:34:54] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:34:54] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[15:34:54] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[15:34:54] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.11+7055-8357a12
+[15:34:55] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:34:55] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[15:34:55] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[15:34:56] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[15:34:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:34:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:34:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:34:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:34:56] [Server thread/INFO]: Preparing level "world"
+[15:34:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:34:57] [Server thread/INFO]: Preparing spawn area: 0%
+[15:34:58] [Server thread/INFO]: Preparing spawn area: 0%
+[15:34:58] [Server thread/INFO]: Time elapsed: 889 ms
+[15:34:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:34:58] [Server thread/INFO]: Preparing spawn area: 0%
+[15:34:58] [Server thread/INFO]: Time elapsed: 211 ms
+[15:34:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:34:58] [Server thread/INFO]: Preparing spawn area: 0%
+[15:34:58] [Server thread/INFO]: Time elapsed: 134 ms
+[15:34:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.1
+[15:34:58] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[15:34:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.1
+[15:34:58] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[15:34:59] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:34:59] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[15:34:59] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[15:34:59] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[15:34:59] [Server thread/INFO]: Preparing start region for dimension minecraft:aaa
+[15:34:59] [Server thread/INFO]: Preparing spawn area: 0%
+[15:34:59] [Server thread/INFO]: Time elapsed: 281 ms
+[15:34:59] [Server thread/INFO]: Preparing start region for dimension minecraft:flatroom
+[15:34:59] [Server thread/INFO]: Preparing spawn area: 0%
+[15:34:59] [Server thread/INFO]: Time elapsed: 142 ms
+[15:34:59] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[15:34:59] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[15:34:59] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[15:34:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[15:35:00] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsChat to the same version.
+[15:35:00] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsSpawn to the same version.
+[15:35:00] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:35:00] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[15:35:00] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[15:35:01] [Server thread/INFO]: [Essentials] Using locale en
+[15:35:01] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:35:01] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:35:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[15:35:01] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[15:35:01] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[15:35:01] [Server thread/INFO]: [CataMines] Enabling CataMines v2.5.11
+[15:35:01] [Server thread/INFO]: [CataMines] Loading config file
+[15:35:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: catamines [2.5.11]
+[15:35:01] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v5.0
+[15:35:02] [Server thread/INFO]: [RealScoreboard] Enabling RealScoreboard v1.5.3
+[15:35:02] [Server thread/INFO]: [RealScoreboard]    ____            _ ____                     _                         _
+[15:35:02] [Server thread/INFO]: [RealScoreboard]   |  _ \ ___  __ _| / ___|  ___ ___  _ __ ___| |__   ___   __ _ _ __ __| |
+[15:35:02] [Server thread/INFO]: [RealScoreboard]   | |_) / _ \/ _` | \___ \ / __/ _ \| '__/ _ \ '_ \ / _ \ / _` | '__/ _` |
+[15:35:02] [Server thread/INFO]: [RealScoreboard]   |  _ <  __/ (_| | |___) | (_| (_) | | |  __/ |_) | (_) | (_| | | | (_| |
+[15:35:02] [Server thread/INFO]: [RealScoreboard]   |_| \_\___|\__,_|_|____/ \___\___/|_|  \___|_.__/ \___/ \__,_|_|  \__,_|
+[15:35:02] [Server thread/INFO]: [RealScoreboard]   Made by: JoseGamer_PT 		                      Version: 1.5.3
+[15:35:02] [Server thread/INFO]: [RealScoreboard] 
+[15:35:02] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[15:35:02] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[15:35:02] [Server thread/INFO]: [RealScoreboard] Server version: 1.21.4-R0.1-SNAPSHOT
+[15:35:02] [Server thread/INFO]: [RealScoreboard] Finished loading in 0.39 seconds.
+[15:35:02] [Server thread/INFO]: [RealScoreboard] <------------------ RealScoreboard v1.5.3 ------------------>
+[15:35:02] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[15:35:02] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[15:35:02] [Server thread/INFO]: [ClearLag] Loading modules...
+[15:35:02] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[15:35:02] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[15:35:02] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[15:35:02] [Thread-11/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[15:35:02] [Thread-11/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[15:35:02] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[15:35:02] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[15:35:02] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[15:35:02] [Thread-11/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:35:02] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[15:35:02] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[15:35:02] [Server thread/INFO]: [WorldGuard] (aaa) TNT ignition is PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (aaa) Lighters are PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (aaa) Lava fire is PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (aaa) Fire spread is UNRESTRICTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aaa'
+[15:35:02] [Server thread/INFO]: [WorldGuard] (flatroom) TNT ignition is PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (flatroom) Lighters are PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (flatroom) Lava fire is PERMITTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] (flatroom) Fire spread is UNRESTRICTED.
+[15:35:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'flatroom'
+[15:35:02] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:35:02] [Server thread/INFO]: [PhoenixCratesLite] Enabling PhoenixCratesLite v4.0
+[15:35:02] [Server thread/INFO]: Loading cross version adapter...
+[15:35:02] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:35:10] [Server thread/INFO]:   ____    ____                               
+[15:35:10] [Server thread/INFO]:  |  _ \  / ___|                              
+[15:35:10] [Server thread/INFO]:  | |_) || |       Phoenix Crates Lite v4.0      
+[15:35:10] [Server thread/INFO]:  |  __/ | |___    https://myphoenixstore.com/
+[15:35:10] [Server thread/INFO]:  |_|     \____|                             
+[15:35:10] [Server thread/INFO]:                                                  
+[15:35:10] [Server thread/INFO]: You are using a Lite version of Phoenix Crates.
+[15:35:10] [Server thread/INFO]: Some of the features are locked behind the premium version.
+[15:35:10] [Server thread/INFO]: 
+[15:35:10] [Server thread/INFO]: If you want to unlock the next level for your server, upgrade now:
+[15:35:10] [Server thread/INFO]: https://www.myphoenixstore.com/plans/phoenix-crates
+[15:35:10] [Server thread/INFO]: 
+[15:35:10] [Server thread/INFO]: Loading settings...
+[15:35:10] [Server thread/INFO]: Loading file "config.yml".
+[15:35:10] [Server thread/INFO]: File "config.yml" is up to date. Importing configurations.
+[15:35:10] [Server thread/INFO]: Checking for possible migrations...
+[15:35:10] [Server thread/INFO]: [PhoenixCratesLite] No migrations to run.
+[15:35:10] [Server thread/INFO]: Vault founded. Preparing Economy...
+[15:35:10] [Server thread/INFO]: Placeholder API founded. Preparing placeholders...
+[15:35:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: phoenixcrates [1.0.0]
+[15:35:10] [Server thread/INFO]: Loading components...
+[15:35:10] [Server thread/INFO]: Loading database...
+[15:35:10] [Server thread/WARN]: 5 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Starting...
+[15:35:10] [Server thread/WARN]: 25 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Start completed.
+[15:35:10] [Server thread/INFO]: Loading menus...
+[15:35:11] [Server thread/INFO]: Loading file "menus/default_rewards_preview.yml".
+[15:35:11] [Server thread/INFO]: File "menus/default_rewards_preview.yml" is up to date. Importing configurations.
+[15:35:11] [Server thread/INFO]: Loading file "menus/default_crate_milestones.yml".
+[15:35:11] [Server thread/INFO]: File "menus/default_crate_milestones.yml" is up to date. Importing configurations.
+[15:35:11] [Server thread/INFO]: Loading file "menus/default_select_reward.yml".
+[15:35:11] [Server thread/INFO]: File "menus/default_select_reward.yml" is up to date. Importing configurations.
+[15:35:11] [Server thread/INFO]: Menu "default_rewards_preview" loaded successfully
+[15:35:11] [Server thread/INFO]: Menu "default_crate_milestones" loaded successfully
+[15:35:11] [Server thread/INFO]: Menu "default_select_reward" loaded successfully
+[15:35:11] [Server thread/INFO]: Loading players data...
+[15:35:11] [Server thread/INFO]: Loading crates...
+[15:35:11] [Server thread/INFO]: Loading file "locations.yml".
+[15:35:11] [Server thread/INFO]: File "locations.yml" is up to date. Importing configurations.
+[15:35:11] [Server thread/INFO]: Loading file "crates/example3.yml".
+[15:35:11] [Server thread/INFO]: File "crates/example3.yml" is up to date. Importing configurations.
+[15:35:11] [Server thread/INFO]: Loading file "crates/example2.yml".
+[15:35:11] [Server thread/INFO]: File "crates/example2.yml" is up to date. Importing configurations.
+[15:35:11] [Server thread/INFO]: Loading file "crates/example1.yml".
+[15:35:11] [Server thread/INFO]: File "crates/example1.yml" is up to date. Importing configurations.
+[15:35:11] [Server thread/INFO]: Loaded 3 types.
+[15:35:11] [Server thread/INFO]: Loaded 0 crates.
+[15:35:11] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.1-dev+12-8455212
+[15:35:11] [Server thread/WARN]: [EssentialsChat] Version mismatch! Please update all Essentials jars to the same version.
+[15:35:11] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[15:35:11] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[15:35:11] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v3.21.5
+[15:35:11] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.21.5 Plugin Loading...
+[15:35:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: commandpanels [1.0.0]
+[15:35:11] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.21.5 Plugin Loaded!
+[15:35:11] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.1-dev+12-8455212
+[15:35:11] [Server thread/WARN]: [EssentialsSpawn] Version mismatch! Please update all Essentials jars to the same version.
+[15:35:11] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[15:35:11] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
+[15:35:11] [pool-70-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[15:35:11] [Server thread/INFO]: [spark] Starting background profiler...
+[15:35:12] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:35:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[15:35:12] [Server thread/INFO]: [Geyser-Spigot] 
+[15:35:12] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b800 (git-master-ae130cf)
+[15:35:12] [Server thread/INFO]: [Geyser-Spigot] 
+[15:35:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[15:35:12] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
+[15:35:12] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
+[15:35:12] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  DiscordSRV could not connect to Discord because:
+[15:35:12] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  The bot token is invalid
+[15:35:12] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
+[15:35:12] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
+[15:35:15] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[15:35:15] [Server thread/INFO]: [Geyser-Spigot] Done (3.695s)! Run /geyser help for help!
+[15:35:16] [Server thread/INFO]: Done preparing level "world" (19.361s)
+[15:35:16] [Server thread/INFO]: Running delayed init tasks
+[15:35:16] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[15:35:16] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[15:35:16] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:35:16] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] Checking for Updates ... 
+[15:35:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[15:35:16] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] No new version available
+[15:35:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[15:35:16] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[15:35:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[15:35:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[15:35:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[15:35:16] [Server thread/INFO]: 5 placeholder hook(s) registered!
+[15:35:16] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[15:35:16] [Server thread/INFO]: [CataMines] Loading mines from files...
+[15:35:16] [Server thread/INFO]: [CataMines] Starting mines and registering commands. Running version 2.5.11
+[15:35:16] [Server thread/INFO]: [CataMines] Registering listeners
+[15:35:16] [Server thread/INFO]: Done (38.135s)! For help, type "help"
+[15:35:16] [Craft Scheduler Thread - 6 - RealScoreboard/INFO]: [RealScoreboard] The plugin is updated to the latest version.
+[15:36:19] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Mrbost6293
+[15:36:19] [localSession-7-2/INFO]: [Geyser-Spigot] Mrbost6293 (logged in as: Mrbost6293) has connected to the Java server
+[15:36:20] [Server thread/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 joined (UUID: 00000000-0000-0000-0009-01fe0d5598dd)
+[15:36:20] [Server thread/INFO]: -Mrbost6293 joined the game
+[15:36:20] [Server thread/INFO]: -Mrbost6293[/127.0.0.1:0] logged in with entity id 96 at ([aaa]-162.69999, 9.0, 661.3857)
+[15:36:37] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[15:36:43] [Server thread/INFO]: -Mrbost6293 issued server command: /weather clear
+[15:40:58] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs
+[15:41:36] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs skin 7 Lychye
+[15:41:54] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs reload
+[15:44:15] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs
+[15:47:03] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs skin 7 vegetta777
+[15:49:36] [Server thread/INFO]: -Mrbost6293 issued server command: /setspawn
+[15:49:45] [Server thread/INFO]: -Mrbost6293 issued server command: /setworldspawn
+[15:49:45] [Server thread/INFO]: [-Mrbost6293: Set the world spawn point to -95, 69, 545 [0.0]]
+[15:49:54] [Server thread/INFO]: -Mrbost6293 issued server command: /mv setspawn
+[15:50:03] [Server thread/INFO]: -Mrbost6293 issued server command: /spawn
+[15:50:03] [Server thread/WARN]: -Mrbost6293 moved too quickly! -1.164794999999998,2.0,-9.930600000000027
+[15:50:03] [Server thread/WARN]: -Mrbost6293 moved too quickly! 1.164794999999998,-2.0,9.930600000000027
+[15:50:25] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Mrbost6293 has disconnected from the Java server because of Bedrock client disconnected
+[15:50:25] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 disconnected
+[15:50:26] [Server thread/INFO]: -Mrbost6293 lost connection: Disconnected
+[15:50:26] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[15:50:26] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[15:50:26] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
+[15:50:26] [Server thread/INFO]: -Mrbost6293 left the game
+[16:01:03] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Mrbost6293
+[16:01:03] [localSession-7-3/INFO]: [Geyser-Spigot] Mrbost6293 (logged in as: Mrbost6293) has connected to the Java server
+[16:01:03] [Server thread/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 joined (UUID: 00000000-0000-0000-0009-01fe0d5598dd)
+[16:01:03] [Server thread/INFO]: -Mrbost6293 joined the game
+[16:01:03] [Server thread/INFO]: -Mrbost6293[/127.0.0.1:0] logged in with entity id 560 at ([aaa]-90.41556, 67.0, 571.52325)
+[16:01:25] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs
+[16:02:12] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs line set &#CC2323&l&o&nM&#CC2E21&l&o&nI&#CD3A20&l&o&nN&#CD451E&l&o&nA&#CE511C&l&o&n-&#CE5C1A&l&o&nP&#CF6819&l&o&nV&#CF7317&l&o&nP
+[16:02:27] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[16:02:31] [Server thread/INFO]: -Mrbost6293 issued server command: /time set day
+[16:02:43] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag spawn
+[16:02:54] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag list
+[16:03:09] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag spawn list
+[16:03:50] [Server thread/INFO]: -Mrbost6293 issued server command: /fg flag block-place deny
+[16:04:21] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag spawn block-place
+[16:04:32] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'aaa' have been background saved
+[16:04:39] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag spawn list
+[16:05:21] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag spawn pvp deny
+[16:05:32] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'aaa' have been background saved
+[16:06:28] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag spawn invincible allow
+[16:06:32] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'aaa' have been background saved
+[16:06:58] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag spawn block-place deny
+[16:07:02] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'aaa' have been background saved
+[16:09:23] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag spawn exit-override deny
+[16:09:37] [Async Chat Thread - #0/INFO]: [Not Secure] <-Mrbost6293> no
+[16:09:51] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag spawn list
+[16:10:25] [Server thread/INFO]: -Mrbost6293 issued server command: /rg reload
+[16:12:07] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag spawn mob-spawning deny
+[16:12:32] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'aaa' have been background saved
+[16:12:38] [Server thread/INFO]: -Mrbost6293 issued server command: /rg reload
+[16:13:43] [Server thread/INFO]: -Mrbost6293 issued server command: /rg flag spawn exit-override deny
+[16:15:34] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 0
+[16:15:46] [Server thread/INFO]: -Mrbost6293 issued server command: /kill @s
+[16:16:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /kill @a
+[16:16:02] [Server thread/INFO]: Error: Player not found.
+[16:16:13] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /kill all
+[16:16:13] [Server thread/INFO]: Error: Player not found.
+[16:16:17] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /kill 
+[16:16:17] [Server thread/INFO]: Command Help: /kill
+[16:16:17] [Server thread/INFO]: Description: Kills specified player.
+[16:16:17] [Server thread/INFO]: Usage(s);
+[16:16:17] [Server thread/INFO]: /kill <player> - Kills the specified player
+[16:16:31] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /kill -Mrbost6293
+[16:16:31] [Server thread/INFO]: -Mrbost6293 died
+[16:16:31] [Server thread/INFO]: Killed -Mrbost6293.
+[16:17:04] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[16:17:21] [Server thread/INFO]: -Mrbost6293 issued server command: /mv tp flatroom
+[16:17:34] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[16:19:28] [Server thread/INFO]: -Mrbost6293 issued server command: //copy
+[16:20:10] [Server thread/INFO]: -Mrbost6293 issued server command: /mv tp aaa
+[16:20:24] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[16:20:50] [Server thread/INFO]: -Mrbost6293 issued server command: //paste
+[16:21:08] [Server thread/INFO]: -Mrbost6293 issued server command: /warps
+[16:21:21] [Server thread/INFO]: -Mrbost6293 issued server command: /warp minapvp
+[16:21:30] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[16:22:12] [Server thread/INFO]: -Mrbost6293 issued server command: //copy
+[16:22:19] [Server thread/INFO]: -Mrbost6293 issued server command: /spawn
+[16:22:30] [Server thread/INFO]: -Mrbost6293 issued server command: /fly
+[16:22:53] [Server thread/INFO]: -Mrbost6293 issued server command: //paste
+[16:23:11] [Server thread/INFO]: -Mrbost6293 issued server command: /warp mina
+[16:23:20] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[16:23:25] [Server thread/INFO]: -Mrbost6293 issued server command: /time set sunrise
+[16:25:44] [Server thread/INFO]: -Mrbost6293 has made the advancement [Minecraft: Trial(s) Edition]
+[16:26:38] [Server thread/INFO]: -Mrbost6293 issued server command: //copy
+[16:26:43] [Server thread/INFO]: -Mrbost6293 issued server command: /spawn
+[16:26:52] [Server thread/INFO]: -Mrbost6293 issued server command: /fly
+[16:27:18] [Server thread/INFO]: -Mrbost6293 issued server command: //paste
+[16:27:36] [Server thread/INFO]: -Mrbost6293 issued server command: /warp minapvp
+[16:28:14] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[16:28:59] [Server thread/INFO]: -Mrbost6293 issued server command: //copy
+[16:29:03] [Server thread/INFO]: -Mrbost6293 issued server command: /spawn
+[16:29:16] [Server thread/INFO]: -Mrbost6293 issued server command: /fly
+[16:29:29] [Server thread/ERROR]: Tried to load invalid item: 'Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: bridge:espada_romana'
+[16:29:29] [Server thread/ERROR]: Tried to load invalid item: 'Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: bridge:espada_romana'
+[16:29:29] [Server thread/ERROR]: Tried to load invalid item: 'Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: bridge:espada_romana'
+[16:29:32] [Server thread/ERROR]: Tried to load invalid item: 'Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: bridge:espada_romana'
+[16:29:32] [Server thread/ERROR]: Tried to load invalid item: 'Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: bridge:espada_romana'
+[16:29:43] [Server thread/INFO]: -Mrbost6293 issued server command: //paste
+[16:30:00] [Server thread/INFO]: -Mrbost6293 issued server command: /gamemode 1
+[16:41:58] [Server thread/INFO]: Stopping the server
+[16:41:58] [Server thread/INFO]: Stopping server
+[16:41:58] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.1-dev+12-8455212
+[16:41:58] [Server thread/INFO]: [CommandPanels] Disabling CommandPanels v3.21.5
+[16:41:58] [Server thread/INFO]: RockyHawk's CommandPanels Plugin Disabled, aww man.
+[16:41:58] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[16:41:58] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[16:41:58] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[16:41:58] [Server thread/INFO]: [Geyser-Spigot] Mrbost6293 has disconnected from the Java server because of Apagando el proxy de Geyser.
+[16:41:58] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as -Mrbost6293 disconnected
+[16:41:58] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[16:41:58] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[16:41:58] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.1-dev+12-8455212
+[16:41:58] [Server thread/INFO]: [PhoenixCratesLite] Disabling PhoenixCratesLite v4.0
+[16:41:58] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
+[16:41:58] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[16:41:58] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[16:41:58] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[16:41:58] [Server thread/INFO]: [RealScoreboard] Disabling RealScoreboard v1.5.3
+[16:41:58] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v5.0
+[16:41:58] [Server thread/INFO]: [CataMines] Disabling CataMines v2.5.11
+[16:41:58] [WebSocketConnectReadThread-147/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[16:41:58] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
+[16:41:58] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[16:41:58] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
+[16:41:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[16:41:58] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
+[16:41:58] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.11+7055-8357a12
+[16:41:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:41:58] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[16:41:58] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.1
+[16:41:58] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:41:58] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.158
+[16:41:58] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:41:58] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:41:58] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:41:58] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.1
+[16:41:58] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[16:41:58] [Server thread/INFO]: Saving players
+[16:41:58] [Server thread/INFO]: -Mrbost6293 lost connection: Server closed
+[16:41:58] [Server thread/INFO]: -Mrbost6293 left the game
+[16:41:58] [Server thread/INFO]: Saving worlds
+[16:41:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 18 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:41:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:41:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:41:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[aaa]'/minecraft:aaa
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'aaa'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'aaa'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'aaa'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Saved 202 block chunks, 151 entity chunks, 0 poi chunks in world 'aaa' in 0.34s
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'aaa'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'aaa'
+[16:41:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[flatroom]'/minecraft:flatroom
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'flatroom'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'flatroom'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'flatroom'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 39 entity chunks, 0 poi chunks in world 'flatroom' in 0.01s
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'flatroom'
+[16:41:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'flatroom'
+[16:41:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:41:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:41:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:41:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (aaa): All chunks are saved
+[16:41:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (flatroom): All chunks are saved
+[16:41:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:41:58] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[16:41:58] [Server thread/INFO]: All I/O tasks to complete
+[16:41:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:41:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
