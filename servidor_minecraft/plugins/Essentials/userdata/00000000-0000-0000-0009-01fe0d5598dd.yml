@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1744119885649
+  lastteleport: 1744208282691
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1744149138228
-  login: 1744148112100
+  login: 1744208015446
 money: '0'
 last-account-name: -Mrbost6293
 logoutlocation:
@@ -29,10 +29,10 @@ logoutlocation:
   yaw: 34.481109619140625
   pitch: 12.469085693359375
 lastlocation:
-  world: 86aafe61-5f7b-4a70-b719-a2fa017f07ec
-  world-name: flatroom
-  x: -1.7009281
-  y: -24.31664
-  z: 0.6395538
-  yaw: -96.4568099975586
-  pitch: 6.994659423828125
+  world: 596b4201-5fcc-4563-b1fc-c3d8ca9ddb60
+  world-name: aaa
+  x: 47.5
+  y: 100.0
+  z: 547.5
+  yaw: -94.63789367675781
+  pitch: 21.7493896484375
