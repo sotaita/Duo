@@ -508,3 +508,19 @@ CloseCode(4004 / The account token sent with your identify payload is incorrect.
 [14:32:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
 [14:32:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
 [14:32:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
+[14:36:34] [Server thread/INFO]: -Mrbost6293 issued server command: /give -Mrbost6293 light_block
+[14:37:30] [Server thread/INFO]: -Mrbost6293 issued server command: /give -Mrbost6293 light
+[14:40:20] [Server thread/INFO]: -Mrbost6293 issued server command: /time set day
+[14:40:49] [Server thread/INFO]: -Mrbost6293 issued server command: /up 100
+[14:40:49] [Server thread/WARN]: -Mrbost6293 moved too quickly! 0.13962528000000002,100.0,0.12660000000005311
+[14:40:49] [Server thread/WARN]: -Mrbost6293 moved too quickly! 0.13962528000000002,100.0,0.12660000000005311
+[14:40:49] [Server thread/WARN]: -Mrbost6293 moved too quickly! 0.13962528000000002,100.0,0.12660000000005311
+[14:40:49] [Server thread/WARN]: -Mrbost6293 moved too quickly! 0.13962528000000002,100.0,0.12660000000005311
+[14:40:49] [Server thread/WARN]: -Mrbost6293 moved too quickly! 0.13962528000000002,100.0,0.12660000000005311
+[14:40:49] [Server thread/WARN]: -Mrbost6293 moved too quickly! 0.13962528000000002,100.0,0.12660000000005311
+[14:40:49] [Server thread/WARN]: -Mrbost6293 moved too quickly! 0.13962528000000002,100.0,0.12660000000005311
+[14:40:49] [Server thread/WARN]: -Mrbost6293 moved too quickly! 0.13962528000000002,100.0,0.12660000000005311
+[14:40:49] [Server thread/WARN]: -Mrbost6293 moved too quickly! 0.13962528000000002,100.0,0.12660000000005311
+[14:40:49] [Server thread/WARN]: -Mrbost6293 moved too quickly! 0.13962528000000002,100.0,0.12660000000005311
+[14:42:45] [Server thread/INFO]: -Mrbost6293 issued server command: /rg create spawn
+[14:42:46] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'aaa' have been background saved
