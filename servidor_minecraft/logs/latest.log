@@ -459,3 +459,52 @@
 [14:18:02] [Server thread/WARN]: -Mrbost6293 moved too quickly! 0.0,-12.0,0.0
 [14:19:14] [Server thread/INFO]: -Mrbost6293 issued server command: /setworldspawn
 [14:19:14] [Server thread/INFO]: [-Mrbost6293: Set the world spawn point to -95, 69, 545 [0.0]]
+[14:23:25] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[14:23:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[14:23:27] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] [JDA] WebSocket connection was closed and cannot be recovered due to identification issues
+CloseCode(4004 / The account token sent with your identify payload is incorrect.)
+[14:23:27] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[14:23:27] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[14:23:27] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  DiscordSRV was disconnected from Discord because:
+[14:23:27] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  The bot token is invalid
+[14:23:27] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[14:23:27] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[14:23:27] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[14:23:32] [DiscordSRV - Shutdown/WARN]: [DiscordSRV] JDA took too long to shut down, skipping
+[14:23:32] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 5005ms
+[14:23:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4967ms or 99 ticks behind
+[14:23:59] [Server thread/INFO]: -Mrbost6293 issued server command: /tps
+[14:25:15] [Server thread/INFO]: Incorrect use of command.
+[14:25:18] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs crate
+[14:25:29] [Server thread/INFO]: ------ ZNPCs 4.8 by ZNetwork ------
+[14:25:29] [Server thread/INFO]: https://www.spigotmc.org/resources/znpcs.80940
+[14:25:29] [Server thread/INFO]: 
+[14:25:29] [Server thread/INFO]: Commands:
+[14:25:29] [Server thread/INFO]: /znpcs lines 
+[14:25:29] [Server thread/INFO]: /znpcs equip 
+[14:25:29] [Server thread/INFO]: /znpcs list 
+[14:25:29] [Server thread/INFO]: /znpcs action 
+[14:25:29] [Server thread/INFO]: /znpcs skin 
+[14:25:29] [Server thread/INFO]: /znpcs type 
+[14:25:29] [Server thread/INFO]: /znpcs delete 
+[14:25:29] [Server thread/INFO]: /znpcs teleport 
+[14:25:29] [Server thread/INFO]: /znpcs toggle 
+[14:25:29] [Server thread/INFO]: /znpcs path 
+[14:25:29] [Server thread/INFO]: /znpcs height 
+[14:25:29] [Server thread/INFO]: /znpcs customize 
+[14:25:29] [Server thread/INFO]: /znpcs conversation 
+[14:25:29] [Server thread/INFO]: /znpcs create 
+[14:25:29] [Server thread/INFO]: /znpcs move 
+[14:25:29] [Server thread/INFO]: 
+[14:25:29] [Server thread/INFO]: Hover over commands for helpful tips. Require further assistance? Join our Discord community: https://discord.com/invite/RhNMH4T
+[14:25:29] [Server thread/INFO]: -----------------------------
+[14:25:52] [Server thread/INFO]: Incorrect use of command.
+[14:27:04] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs create 3 player crates
+[14:29:13] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs create 4 player evetos
+[14:29:51] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs 5 player survival
+[14:30:14] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs create 5 player survival
+[14:31:25] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs create 6 player mina-sin-pvp
+[14:32:05] [Server thread/INFO]: -Mrbost6293 issued server command: /znpcs create 7 player mina-pvp
+[14:32:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[14:32:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[14:32:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
